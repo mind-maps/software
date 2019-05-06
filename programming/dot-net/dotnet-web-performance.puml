@@ -1,0 +1,86 @@
+@startuml
+@startmindmap
+caption figure 1
+title Mind map on .Net Web Performance
+
+* <&flag><b>Performance</b>
+** <&globe>Server
+*** IIS
+**** AppPool config
+***** Recycle
+***** Idle timeoue
+***** Always on
+***** Timeouts > 30 s
+*** .Net Code
+**** [[https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/sql-server-connection-pooling Connection pooling]]
+**** ThreadPool Size
+**** Caching
+***** Metadata Caching
+***** Transaction data caching for less time
+**** Poor Logic
+**** Multiple hops to serve request
+*** Database
+*** I/O
+**** File
+**** Outbound network
+**** Logging overhead
+** <&graph>Network
+*** [[https://docs.microsoft.com/en-us/windows/client-management/troubleshoot-tcpip-port-exhaust Port exhaustion]]
+*** Application / Security Gateway delay
+*** Load balancer
+**** LB Algorithm
+**** Sticky session
+*** latency
+**** Multiple hops
+**** Devices and bandwidth
+** <&pulse>Authentication
+*** Windows
+**** Kerberos missing?
+**** Latency to AD
+
+left side
+
+** <&globe>Browser
+*** Caching
+**** JavaScript Caching
+***** Angular cache object
+**** HttpCaching
+***** Expires header
+***** cache-control
+**** ETag
+**** IndexedDB
+**** Cache API
+*** Requests
+**** Compression
+***** gzip
+**** High payload > 70KB
+**** Unwanted
+**** Duplicate
+**** AJAX
+***** No of retries
+***** JSON
+****** [[https://www.newtonsoft.com/json/help/html/ReducingSerializedJSONSize.htm Attribute size]]
+****** Empty values
+**** File upload
+***** Chunked
+***** File Input
+**** static
+***** Bundling
+***** Minification
+***** sprite images
+*** WebSockets
+** <&people>Protocols
+*** <s>http 1.1</s> => <&star>Http/2
+
+header
+.Net Web Performance
+endheader
+
+center footer JoymonOnline
+
+legend right
+  Short
+  legend
+endlegend
+@endmindmap
+@enduml

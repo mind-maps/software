@@ -1,0 +1,48 @@
+@startmindmap
+caption figure 1
+title Before debugging other's problem
+* <&flag><b>Problem</b>
+** Reproducing
+*** Consistently reproducing
+**** In dev env
+***** Sample application
+***** Test cases
+****** Debug
+******* Fix
+*** Sometimes
+**** Make it consistent
+*** Only in Production
+**** First deployment
+***** environment
+****** Settings
+****** Permisissions
+**** After new version
+***** Check the deployment
+***** Review changeset
+**** Sample application
+**** Reproduce in dev
+**** Workaround / hack
+** Not reproducing
+*** Reproduce
+**** Sample application
+**** Timing
+**** User specific
+**** Environment
+**** Race conditions
+**** Scientific approach
+*** Access to servers
+**** Logs to repro
+**** Stack traces
+**** Error codes
+***** Google
+**** Debugging tools
+*** Error at client app
+
+left side
+** Defect description
+** Rubber duck
+** Priority
+*** Development
+*** Production
+** Architecture / design available
+@endmindmap

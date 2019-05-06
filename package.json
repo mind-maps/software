@@ -1,0 +1,22 @@
+{
+  "name": "mind-maps",
+  "version": "1.0.0",
+  "description": "Mind maps based on PlantUML language",
+  "main": "index.js",
+  "scripts": {
+    "build":"node ./build.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mind-maps",
+    "plantuml",
+    ".net",
+    "performance",
+    "web"
+  ],
+  "author": "Joy George K",
+  "license": "ISC",
+  "devDependencies": {
+    "node-plantuml": "^0.8.1"
+  }
+}
