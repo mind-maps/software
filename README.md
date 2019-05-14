@@ -16,3 +16,7 @@ Preview
 - VSCode
 - PlantUML extension into VSCode
 - Alt+D to view preview
+
+Generate image
+- NPM Install
+- NPM run build
