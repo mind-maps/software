@@ -1,7 +1,11 @@
 @startuml
 @startmindmap
-caption figure 1
+caption Mind map of .Net performance considerations
 title Mind map on .Net Web Performance
+center header
+.Net Web Performance
+endheader
+
 
 * <&flag><b>Performance</b>
 ** <&globe>Server
@@ -20,6 +24,7 @@ title Mind map on .Net Web Performance
 **** Poor Logic
 **** Multiple hops to serve request
 *** Database
+**** SQL Server
 *** I/O
 **** File
 **** Outbound network
@@ -41,6 +46,10 @@ title Mind map on .Net Web Performance
 left side
 
 ** <&globe>Browser
+*** static contents
+**** Bundling / Modules
+**** Minification
+**** Lazy loading
 *** Caching
 **** JavaScript Caching
 ***** Angular cache object
@@ -72,15 +81,13 @@ left side
 ** <&people>Protocols
 *** <s>http 1.1</s> => <&star>Http/2
 
-header
-.Net Web Performance
-endheader
-
 center footer JoymonOnline
 
 legend right
-  Short
-  legend
+  Left Side - Browser
+  Right Side - Network, infrastructure & servers
+  What is not covered
+   Desktop & mobile apps connecting to web services
 endlegend
 @endmindmap
 @enduml
