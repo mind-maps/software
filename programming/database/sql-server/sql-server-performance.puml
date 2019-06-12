@@ -1,0 +1,38 @@
+@startuml
+@startmindmap
+caption Mind map of SQL Server performance considerations
+title Mind map on SQL Server Web Performance
+center header
+SQL Server Web Performance
+endheader
+
+center footer JoymonOnline
+* <&flag><b>SQL-Performance</b>
+** <&globe>Code
+*** DDL
+**** Triggers
+**** Indexes
+*** Cursor
+*** re-compile
+
+left side
+
+** <&globe>Setup & Infra
+*** Storage
+**** Temp db file location
+**** Partitioning
+**** File growth
+*** Flags
+*** HA & DR
+**** Always On HighAvailability
+***** Connectivity <-> replica
+*** Index maintenance
+*** Azure SQL VM Considerations
+
+legend right
+  Left Side - SQL Server setup, maintenance
+  Right Side - Databases and applications
+   
+endlegend
+@endmindmap
+@enduml
