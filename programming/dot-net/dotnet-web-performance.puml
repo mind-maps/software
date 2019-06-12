@@ -25,7 +25,7 @@ endheader
 **** ThreadPool Size
 **** Caching
 ***** Metadata Caching
-***** Transaction data caching for less time
+***** Transaction data caching\nless time
 **** Poor Logic
 **** Multiple hops to serve request
 *** Database
