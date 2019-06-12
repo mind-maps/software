@@ -8,21 +8,32 @@ endheader
 
 center footer JoymonOnline
 * <&flag><b>SQL-Performance</b>
-** <&globe>Code
+** Client app
+*** Cache
+**** Metadata to reduce calls
+**** Data for short time
+** <&globe>TSQL
 *** DDL
 **** Triggers
 **** Indexes
+**** In-memory table
+*** DML
+**** Select *
+**** Filter rows
+**** like %%
 *** Cursor
 *** re-compile
 
 left side
 
 ** <&globe>Setup & Infra
+*** Connectivity
+**** Bandwidth with client
 *** Storage
 **** Temp db file location
 **** Partitioning
 **** File growth
-*** Flags
+*** [[https://docs.microsoft.com/en-us/sql/t-sql/database-console-commands/dbcc-traceon-trace-flags-transact-sql?view=sql-server-2017 Flags]] 
 *** HA & DR
 **** Always On HighAvailability
 ***** Connectivity <-> replica
