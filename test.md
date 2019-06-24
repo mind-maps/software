@@ -1,0 +1,1 @@
+![SQL Server Performance](http://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/programming/database/sql-server/sql-server-performance.puml)
