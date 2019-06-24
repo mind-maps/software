@@ -1,0 +1,50 @@
+@startuml
+@startmindmap
+caption Mind map of SQL Server Always On Availability Groups.
+title Mind map on SQL Server Always On Availability Groups
+center header
+SQL Server Always On Availability Groups.
+endheader
+
+center footer JoymonOnline
+* <&flag><b>SQL Always On Availability Groups</b>
+** Restrictions
+** Concepts
+*** AG mode
+**** [[https://docs.microsoft.com/en-us/sql/database-engine/availability-groups/windows/availability-modes-always-on-availability-groups?view=sql-server-2017#SyncCommitAvMode sync]]
+***** [[https://www.brentozar.com/archive/2015/09/synchronous-alwayson-availability-groups-is-not-zero-data-loss/ Dataloss in sync]]
+***** Performane hit [[https://blogs.msdn.microsoft.com/sambetts/2014/08/21/alwayson-asynchronous-vs-synchronous-commit-performance-for-sharepoint/ 1]]
+**** [[https://docs.microsoft.com/en-us/sql/database-engine/availability-groups/windows/availability-modes-always-on-availability-groups?view=sql-server-2017#AsyncCommitAvMode Async]]
+*** Failover mode
+**** Automatic
+**** Manual
+*** Prerequisites
+**** [[https://docs.microsoft.com/en-us/sql/database-engine/availability-groups/windows/failover-clustering-and-always-on-availability-groups-sql-server?view=sql-server-2017 WSFC]]
+*** Auto seeding
+** Use cases
+
+left side
+
+** Setup
+*** Azure VM
+** Capacity
+*** No of Databases in AG
+*** No of Replicas
+
+** Troubleshooting
+*** Where to look
+**** Always on AG Dashboard
+**** DMVs
+**** SQL Error logs
+*** Network
+**** Ports
+**** Bandwidth
+*** [[https://www.sqlshack.com/measuring-availability-group-synchronization-lag/ Measure sync lag]]
+
+legend right
+  Left Side - Environment setup, Troubleshooting
+  Right Side - Concepts and things to know before using
+   
+endlegend
+@endmindmap
+@enduml
