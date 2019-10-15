@@ -9,6 +9,6 @@
        - [SQL Server Performance](http://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/programming/database/sql-server/sql-server-performance.puml){:target="_blank"}
        - [SQL Server Always On Availability Group](http://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/programming/database/sql-server/always-on-availability-groups.puml){:target="_blank"}
 - Cloud
- - Azure
-  - Security
-   - [Microsoft Identity Platform OAuth](http://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/cloud/Azure/Microsoft%20Identity%20Platform%20OAuth.puml)
+  - Azure
+    - Security
+      - [Microsoft Identity Platform OAuth](http://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/cloud/Azure/Microsoft%20Identity%20Platform%20OAuth.puml)
