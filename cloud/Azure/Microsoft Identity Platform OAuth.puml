@@ -1,0 +1,32 @@
+@startmindmap
+caption figure 1
+title Microsoft Identity Platform - OAuth
+center header
+Microsoft Identity Platform aka AADv2
+endheader
+
+* <&flag><b>Microsoft Identity Platform</b>
+** [[https://docs.microsoft.com/en-us/azure/active-directory/develop/authentication-scenarios Grant Types]]
+*** [[https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-auth-code-flow Authorization Code Flow]]
+*** [[https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-implicit-grant-flow Implicit Grant Flow]]
+*** [[https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-protocols-oidc#get-access-tokens Hybrid OIDC Flow]]
+*** [[https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-auth-code-flow#refresh-the-access-token Refresh token redemption]]
+*** [[https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-on-behalf-of-flow On-Behalf-Of Flow]]
+*** [[https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-device-code Device code flow]]
+*** [[https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow Client Credentials Flow]]
+left side
+** OAuth 2.0 Specs
+*** Grant Types
+**** [[https://tools.ietf.org/html/rfc6749#page-24 Authorization Code Grant]]
+**** [[https://tools.ietf.org/html/rfc6749#page-31 Implicit Grant]]
+**** [[https://tools.ietf.org/html/rfc6749#page-37 Resource owner Password Credentials]]
+**** [[https://tools.ietf.org/html/rfc6749#page-40 Client Credentials Grant]]
+center footer JoymonOnline
+
+legend right
+  Left Side - OAuth 2.0 specs
+  Right Side - Azure implemenation
+  
+endlegend
+
+@endmindmap
