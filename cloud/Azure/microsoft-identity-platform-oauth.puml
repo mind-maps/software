@@ -1,11 +1,12 @@
 @startmindmap
-caption Microsoft Identity Platform - OAuth Mind Map
+caption Microsoft Identity Platform - OAuth Mind Map - Updated on 2019-10-22
 title Microsoft Identity Platform - OAuth
 center header
 Microsoft Identity Platform aka AADv2
 endheader
 
-* <&flag><b>Microsoft Identity Platform</b>
+* <&flag><b>[[https://docs.microsoft.com/en-us/azure/active-directory/develop/ Microsoft Identity Platform]]</b>
+** [[https://docs.microsoft.com/en-us/azure/active-directory/develop/about-microsoft-identity-platform Evolution from AAD Dev Platform]]
 ** [[https://docs.microsoft.com/en-us/azure/active-directory/develop/authentication-scenarios Grant Types]]
 *** [[https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-auth-code-flow Authorization Code Flow]]
 *** [[https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-implicit-grant-flow Implicit Grant Flow]]
@@ -14,6 +15,14 @@ endheader
 *** [[https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-on-behalf-of-flow On-Behalf-Of Flow]]
 *** [[https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-device-code Device code flow]]
 *** [[https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-client-creds-grant-flow Client Credentials Flow]]
+** SDKs 
+*** [[https://docs.microsoft.com/en-us/azure/active-directory/develop/reference-v2-libraries MSAL]]
+** Supported Identity Providers
+*** AAD
+*** Facebook
+*** Google
+*** LinkedIn
+
 left side
 ** OAuth 2.0 Specs
 *** Grant Types
