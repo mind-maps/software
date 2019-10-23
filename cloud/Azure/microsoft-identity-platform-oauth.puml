@@ -7,7 +7,7 @@ endheader
 
 * <&flag><b>[[https://docs.microsoft.com/en-us/azure/active-directory/develop/ Microsoft Identity Platform]]</b>
 ** [[https://docs.microsoft.com/en-us/azure/active-directory/develop/about-microsoft-identity-platform Evolution from AAD Dev Platform]]
-** [[https://docs.microsoft.com/en-us/azure/active-directory/develop/authentication-scenarios Grant Types]]
+** [[https://docs.microsoft.com/en-us/azure/active-directory/develop/active-directory-v2-protocols Protocols]] & \n[[https://docs.microsoft.com/en-us/azure/active-directory/develop/authentication-scenarios Grant Types]]
 *** [[https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-auth-code-flow Authorization Code Flow]]
 *** [[https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-oauth2-implicit-grant-flow Implicit Grant Flow]]
 *** [[https://docs.microsoft.com/en-us/azure/active-directory/develop/v2-protocols-oidc#get-access-tokens Hybrid OIDC Flow]]
@@ -22,7 +22,7 @@ endheader
 *** Facebook
 *** Google
 *** LinkedIn
-
+** [[https://docs.microsoft.com/en-us/azure/active-directory/develop/azure-ad-endpoint-comparison#limitations Limitations]]
 left side
 ** OAuth 2.0 Specs
 *** Grant Types
@@ -30,10 +30,11 @@ left side
 **** [[https://tools.ietf.org/html/rfc6749#page-31 Implicit Grant]]
 **** [[https://tools.ietf.org/html/rfc6749#page-37 Resource owner Password Credentials]]
 **** [[https://tools.ietf.org/html/rfc6749#page-40 Client Credentials Grant]]
+** [[https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/active-directory-whatis What is Azure AD]]
 center footer JoymonOnline
 
 legend right
-  Left Side - OAuth 2.0 specs
+  Left Side - OAuth 2.0 specs & theories
   Right Side - Azure implemenation
   
 endlegend
