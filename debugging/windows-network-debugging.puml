@@ -6,14 +6,31 @@ center header
 Windows Networking tools & commands for Developers
 endheader
 
-* <&flag><b>Debug Networking Issues</b>
-** <&globe>Commands
-*** ping
-*** tracert
-*** nslookup
-*** NetStat
-*** TCPDump
-** Logging
+* <&flag><b>Debug</b> \n Networking
+** <&command>Commands
+*** configuration
+**** hostname
+**** getmac
+**** ipconfig
+**** IIS
+***** appcmd
+*** Connectivity
+**** ping
+**** tracert
+**** pathping
+**** nslookup
+**** route
+**** telnet
+*** arp
+*** Active
+**** netstat
+**** nbtstat
+**** TCPDump
+
+*** netsh
+
+left
+** <&file>Logging
 *** IIS
 **** Logs
 **** Extended IIS Logs
@@ -22,8 +39,8 @@ endheader
 *** http.sys
 *** External
 **** ApplicationInsights
-left
-** UI Tools
+
+** <&monitor>UI Tools
 *** Browser F12
 *** Fiddler
 *** Wireshark
