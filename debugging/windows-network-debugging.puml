@@ -5,27 +5,34 @@ title Windows Networking tools & commands for Developers
 center header
 Windows Networking tools & commands for Developers
 endheader
-
 * <&flag><b>Debug</b> \n Networking
+** machine configuration
+*** hostname
+*** whoami
+*** getmac
+*** ipconfig
+*** IIS
+**** appcmd
 ** <&command>Commands
-*** configuration
-**** hostname
-**** getmac
-**** ipconfig
-**** IIS
-***** appcmd
+*** Authentication
+**** SetSPN
+**** Kerberos
+***** [[https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/klist klist]]
+***** [[https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/ktpass ktpass]]
+
 *** Connectivity
 **** ping
 **** tracert
 **** pathping
 **** nslookup
 **** route
-**** telnet
+**** <&command>telnet
 *** arp
 *** Active
 **** netstat
 **** nbtstat
-**** TCPDump
+**** [[https://docs.microsoft.com/en-us/sysinternals/downloads/tcpview TCPView]]
+**** <&command>TCPDump
 
 *** netsh
 
@@ -54,6 +61,7 @@ center footer JoymonOnline
 legend right
   Left Side - UI Tools
   Right Side - Commands and logs
+  <&command>Commands
   
 endlegend
 
