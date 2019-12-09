@@ -13,27 +13,29 @@ endheader
 *** ipconfig
 *** IIS
 **** appcmd
-** <&command>Commands
-*** Authentication
-**** SetSPN
-**** Kerberos
-***** [[https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/klist klist]]
-***** [[https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/ktpass ktpass]]
 
-*** Connectivity
-**** ping
-**** tracert
-**** pathping
-**** nslookup
-**** route
-**** <&command>telnet
+** Authentication
+*** <&command>[[https://www.windows-commandline.com/get-sid-of-user/ SiD Utils]]
+*** SetSPN
+*** Kerberos
+**** [[https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/klist klist]]
+**** [[https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/ktpass ktpass]]
+
+** Connectivity
+*** ping
+*** tracert
+*** pathping
+*** nslookup
+*** route
+*** <&command>telnet
+** <&command>Active
 *** arp
-*** Active
-**** netstat
-**** nbtstat
-**** [[https://docs.microsoft.com/en-us/sysinternals/downloads/tcpview TCPView]]
-**** <&command>TCPDump
 
+*** [[https://docs.microsoft.com/en-us/windows-server/networking/technologies/network-subsystem/net-sub-performance-counters Perfmon]]
+*** netstat
+*** nbtstat
+*** <&file>[[https://docs.microsoft.com/en-us/sysinternals/downloads/tcpview TCPView]]
+*** <&command>TCPDump
 *** netsh
 
 left
@@ -42,6 +44,9 @@ left
 **** Logs
 **** Extended IIS Logs
 **** FREB
+*** .Net
+**** WCF
+***** SVC Logs
 *** EventViewer
 *** http.sys
 *** External
@@ -62,7 +67,6 @@ legend right
   Left Side - UI Tools
   Right Side - Commands and logs
   <&command>Commands
-  
 endlegend
 
 @endmindmap
