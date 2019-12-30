@@ -36,8 +36,10 @@ left
 center footer JoymonOnline
 
 legend right
+Legend
   Left Side - Resources to choose
   Right Side - Tools
+Other links [[https://github.com/airavata-courses/spring17-devops/wiki/Comparing-Infrastructure-as-code-Tools 1]]
 endlegend
 
 @endmindmap
