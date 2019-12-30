@@ -1,0 +1,43 @@
+@startuml
+@startmindmap
+caption IaC - Tools
+title Infrastructure as Code (IaC) - Tools
+center header
+IaC How to choose tools
+endheader
+* <&flag><b>[[https://en.wikipedia.org/wiki/Infrastructure_as_code IaC]]</b>
+** Multi-cloud
+*** Terraform\n(Dec/Plan/State)
+*** [[https://www.pulumi.com/product/ Pulumi]]\n(Imp/State)
+*** Chef\n(Dec/AppDeploy)
+*** Puppet\n(Dec/AppDeploy)
+*** Ansible
+** Native
+*** ARM
+*** Cloudformation
+*** Google cloud deployment manager
+*** [[https://wiki.openstack.org/wiki/Heat OpenStack Heat]]
+left
+** How to choose
+*** Native v/s Multi-cloud?
+**** Multi-cloud
+***** Feature gap
+*** Vendor lock in
+*** Extensibility
+*** Imperative v/s Declarative
+*** One definition / environment\nor parameterize
+*** Support for change plan
+*** Support for maintaining state 
+** Pros
+*** Fast & repeatable
+*** Less error prone
+** Cons
+*** High blast radius
+center footer JoymonOnline
+
+legend right
+  Left Side - Resources to choose
+  Right Side - Tools
+endlegend
+
+@endmindmap
