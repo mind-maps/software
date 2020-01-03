@@ -36,7 +36,8 @@ endheader
 *** nbtstat
 *** <&file>[[https://docs.microsoft.com/en-us/sysinternals/downloads/tcpview TCPView]]
 *** <&command>TCPDump
-*** netsh
+*** <&command>[[https://blogs.technet.microsoft.com/netmon/2009/05/13/event-tracing-for-windows-and-network-monitor/ logman]]
+*** <&command>netsh
 
 left
 ** <&file>Logging
