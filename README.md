@@ -5,6 +5,10 @@ Mind maps related to software engineering
 The diagrams are not prepared in image format such as svg, JPEG or as visio or any other tool's format. It uses text based coded diagramming format called PlantUML.
 The previews can be generated using VS Code editor with PlantUML extension. It also require Java & GraphViz to work.
 
+# Setting up environment to edit using Visual Studio Code
+[![Setting up PlantUML for coding C4 architecture diagrams in Visual Studio Code](http://img.youtube.com/vi/Zt3Bj1HMJ8g/0.jpg)](https://www.youtube.com/watch?v=Zt3Bj1HMJ8g "Setting up PlantUML for coding C4 architecture diagrams in Visual Studio Code")
+
+
 # Building images
 It needs NodeJS and NPM
 
