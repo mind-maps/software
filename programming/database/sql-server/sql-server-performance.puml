@@ -12,6 +12,7 @@ center footer JoymonOnline
 *** Cache
 **** Metadata to reduce calls
 **** Data for short time
+*** Background jobs
 ** <&globe>TSQL
 *** DDL
 **** Triggers
@@ -20,15 +21,17 @@ center footer JoymonOnline
 *** DML
 **** Select *
 **** Filter rows
+**** udf calls
 **** like %%
-*** Cursor
+**** Dynamic objects
+*** Cursor 
 *** re-compile
-
+** Waits
 left side
 
 ** <&globe>Setup & Infra
 *** Connectivity
-**** Bandwidth with client
+**** Bandwidth with clientd
 *** Storage
 **** Temp db file location
 **** Partitioning
@@ -37,9 +40,19 @@ left side
 *** HA & DR
 **** Always On HighAvailability
 ***** Connectivity <-> replica
+**** SQL FCI + LogShipping
 *** Index maintenance
 *** Azure SQL VM Considerations
-
+** Tools & monitoring
+*** SQL
+**** SQL Profiler
+**** Extended Events
+**** [[https://www.sqlshack.com/sql-server-query-store-overview/ Query Store]]
+**** Reports
+**** PSSDiag
+*** OS
+**** Perfmon
+**** Resource monitor
 legend right
   Left Side - SQL Server setup, maintenance
   Right Side - Databases and applications
