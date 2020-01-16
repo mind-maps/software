@@ -27,11 +27,14 @@ center footer JoymonOnline
 *** Cursor 
 *** re-compile
 ** Waits
+** Memory
+*** Page lift expectancy
 left side
 
 ** <&globe>Setup & Infra
 *** Connectivity
-**** Bandwidth with clientd
+**** Bandwidth with clients
+**** Protocol
 *** Storage
 **** Temp db file location
 **** Partitioning
