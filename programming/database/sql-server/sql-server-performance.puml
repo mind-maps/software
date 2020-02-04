@@ -48,6 +48,8 @@ left side
 *** Azure SQL VM Considerations
 ** Tools & monitoring
 *** SQL
+**** Log data points
+***** [[https://docs.microsoft.com/en-us/archive/blogs/psssql/sql-server-correlating-timestamps-from-various-data-points Correlating timestamps]]
 **** SQL Profiler
 **** Extended Events
 **** [[https://www.sqlshack.com/sql-server-query-store-overview/ Query Store]]
