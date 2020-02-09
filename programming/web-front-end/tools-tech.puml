@@ -1,0 +1,64 @@
+@startuml
+@startmindmap
+caption Mind map of front end browser tools and tech
+title Mind map of front end browser application development
+center header
+Mind map of front end development
+endheader
+
+center footer JoymonOnline
+* <&flag><b>Front end</b>
+** Frameworks
+*** Angular
+*** React
+*** Vue
+** State management
+** Module/Bundling
+*** Webpack
+*** Rollup
+*** Parcel
+** Task runners
+*** npm scripts
+*** PowerShell
+*** gulp
+*** grunt
+** Styling
+*** frameworks
+**** Bootstrap
+*** Preprocessors
+**** LESS
+**** SASS
+** Linting
+** Testing
+*** Jasmine
+*** Mocha
+*** Jest
+*** Puppeteer
+left site
+** Standards
+*** HTML
+*** CSS
+*** JavaScript
+*** WebAssembly
+** Language
+*** TypeScript
+*** EC6 and above
+
+** Platform
+*** NodeJS
+** Editor
+*** VS Code
+** Source control
+*** GitHub
+** DevOps
+*** AppVeyor
+*** TravisCI
+*** Github actios
+*** Azure DevOps
+legend right
+  Left Side - Standards, platform and editors
+  Right Side - Frameworks, tools and libaries
+ Server side - Omitted to focus on browser side.
+endlegend
+@endmindmap
+@enduml
