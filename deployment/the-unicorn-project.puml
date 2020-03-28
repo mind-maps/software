@@ -1,12 +1,16 @@
 @startmindmap
-caption The Unicorn Project - Updated on 2019-10-23
+caption The Unicorn Project - Updated on 2020-03-28
 title The Unicorn Project - Mind map
 center header
 The Unicorn Project
 endheader
 
 * <&flag><b>The Unicorn Project</b>
-** Ideals
+** Thoughts of Maxine
+*** Functional programming
+*** Automated testing
+*** CI/CD
+** [[https://www.linkedin.com/pulse/unicorn-project-five-ideals-michal-florys/ Ideals]]
 *** Locality
 *** Simplicity
 *** Improvement of daily work
