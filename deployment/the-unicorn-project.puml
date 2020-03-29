@@ -21,17 +21,22 @@ endheader
 **** Architecture
 *** CI/CD
 *** White space deployment
+*** Everything in version control
 *** Automated testing
 *** QA and business colocated with dev
 *** Immutable deployment using container
 *** independent release of apps 
 *** Versioned Microservices
 *** Dev productivity over features
+*** Blameless post mortem 
+**** Release 
+**** Outages
 *** Code merge 
 **** Alteast once a day
 **** Without war room
 **** Single source repo
 **** No extra steps to push from branch to branch(Jared)
+*** Real product experience
 ** [[https://www.linkedin.com/pulse/unicorn-project-five-ideals-michal-florys/ Ideals]]
 *** Locality & Simplicity
 *** Focus, Flow & Joy
