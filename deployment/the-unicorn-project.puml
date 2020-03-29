@@ -11,14 +11,16 @@ endheader
 *** Immutable
 *** Automated testing
 *** CI/CD
+*** Depoly single change set to production (multi threading fix)
 *** Dev job completes when customer use feature
-*** 2 Pizza teams
 *** Environment parity
+*** 2 Pizza teams
 *** Pay techdebt
 **** hard coding
 **** Manual prep of env
 **** Architecture
 *** Dev productivity over features
+*** Code merge alteast once a day
 ** [[https://www.linkedin.com/pulse/unicorn-project-five-ideals-michal-florys/ Ideals]]
 *** Locality & Simplicity
 *** Focus, Flow & Joy
