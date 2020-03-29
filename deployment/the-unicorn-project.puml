@@ -9,24 +9,35 @@ endheader
 ** View of Maxine about development
 *** Functional programming
 *** Immutable
-*** Automated testing
-*** CI/CD
 *** Depoly single change set to production (multi threading fix)
 *** Dev job completes when customer use feature
 *** Environment parity
 *** 2 Pizza teams
+*** You build it you run it
+*** No ARB/TOGAF
 *** Pay techdebt
-**** hard coding
+**** Hard coding
 **** Manual prep of env
 **** Architecture
+*** CI/CD
+*** White space deployment
+*** Automated testing
+*** QA and business colocated with dev
+*** Immutable deployment using container
+*** independent release of apps 
+*** Versioned Microservices
 *** Dev productivity over features
-*** Code merge alteast once a day
+*** Code merge 
+**** Alteast once a day
+**** Without war room
+**** Single source repo
+**** No extra steps to push from branch to branch(Jared)
 ** [[https://www.linkedin.com/pulse/unicorn-project-five-ideals-michal-florys/ Ideals]]
 *** Locality & Simplicity
 *** Focus, Flow & Joy
 *** Improvement of daily work
 *** Psychological safety
-**** project oxygen google
+**** Project oxygen Google
 *** Customer focus
 left side
 ** RedShirts
