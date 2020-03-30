@@ -31,12 +31,16 @@ endheader
 *** Blameless post mortem 
 **** Release 
 **** Outages
+*** Taxonomy
 *** Code merge 
 **** Alteast once a day
 **** Without war room
 **** Single source repo
 **** No extra steps to push from branch to branch(Jared)
+*** Chaos engineering
 *** Real product experience
+*** Feedback loop and experiment with customers
+*** Fail fast
 ** [[https://www.linkedin.com/pulse/unicorn-project-five-ideals-michal-florys/ Ideals]]
 *** Locality & Simplicity
 *** Focus, Flow & Joy
@@ -44,6 +48,18 @@ endheader
 *** Psychological safety
 **** Project oxygen Google
 *** Customer focus
+** Names
+*** Unicorn - Recommendation system
+*** Norva
+**** New DB(NoSQL) and API gateway, 
+**** Auth, PII anonymization
+*** Unikitty - CI/CD System
+*** ORCA - Analytics and data science
+*** Panther - Modern data warehouse with Spark & event streaming
+** Horizons
+*** 1
+*** 2
+*** 3
 left side
 ** RedShirts
 *** Maxine Chambers, Developer Lead, Architect
