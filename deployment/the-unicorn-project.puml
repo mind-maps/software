@@ -42,6 +42,9 @@ endheader
 *** Real product experience
 *** Feedback loop and experiment with customers
 *** Fail fast
+** Technologies
+*** Kubernetes
+*** Clojure
 ** Names
 *** Unicorn - Recommendation system
 *** Norva
@@ -99,9 +102,11 @@ left side
 center footer JoymonOnline
 
 legend right
-  Left Side TBD
-  Right Side - Terms & definitions
-  
+  Left Side - Characters
+  Right Side - Ideam from the book
+  Other links
+  - [[https://danlebrero.com/2020/02/05/the-unicorn-project-summary/ DanLebrero]]
+  - [[https://www.infoq.com/articles/unicorn-project/ InfoQ]]
 endlegend
 
 @endmindmap
