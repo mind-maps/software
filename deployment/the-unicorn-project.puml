@@ -8,6 +8,7 @@ endheader
 * <&flag><b>The Unicorn Project</b>
 ** View of Maxine about development
 *** Functional programming
+*** Write Unit test before refactor 
 *** Immutable
 *** Depoly single change set to production (multi threading fix)
 *** Dev job completes when customer use feature
@@ -60,6 +61,11 @@ endheader
 *** 1
 *** 2
 *** 3
+** Type of teams
+*** Core
+**** Anything directly bringing revenue from customer eg: Code
+*** Context
+**** Supporting systems, people. eg: HR, home grown CI/CD system, Email server etc...
 left side
 ** RedShirts
 *** Maxine Chambers, Developer Lead, Architect
