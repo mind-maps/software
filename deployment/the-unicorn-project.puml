@@ -17,6 +17,7 @@ endheader
 *** You build it you run it
 *** No ARB/TOGAF
 *** Pay techdebt
+*** Data is the king
 **** Hard coding
 **** Manual prep of env
 **** Architecture
@@ -42,6 +43,10 @@ endheader
 *** Real product experience
 *** Feedback loop and experiment with customers
 *** Fail fast
+** Reorg
+*** QA is part of feature teams
+*** Ops is internal service to enable developers
+*** Move devs from context to core projects
 ** Technologies
 *** Kubernetes
 *** Clojure
