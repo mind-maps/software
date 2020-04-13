@@ -1,0 +1,30 @@
+@startuml
+@startmindmap
+caption Mind map of front end browser tools and tech
+title Mind map of front end browser application development
+center header
+Mind map of front end development
+endheader
+* <&flag><b>Reactive extensions</b>\nSystem.Reactive nuget
+** Observable -Creation
+** Scheduler
+** Async
+** Exception handling
+** Custom observable
+left site
+** Concepts
+** Resources
+*** reactivex.io
+*** introtorx.com
+*** rxmarbles.com
+*** github.com/ReactiveX
+*** reactiveui.net
+*** https://github.com/TheEightBot/Reactive-Examples
+center footer JoymonOnline
+legend right
+  Left Side - Standards, platform and editors
+  Right Side - Frameworks, tools and libaries
+ Server side - Omitted to focus on browser side.
+endlegend
+@endmindmap
+@enduml
