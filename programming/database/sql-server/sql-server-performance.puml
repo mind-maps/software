@@ -27,6 +27,7 @@ center footer JoymonOnline
 *** Cursor 
 *** re-compile
 ** Waits
+*** [[https://www.sqlskills.com/wp-content/uploads/2014/04/sql-server-performance-tuning-using-wait-statistics-whitepaper.pdf Tune wait stats]]
 ** Memory
 *** Page lift expectancy
 left side
