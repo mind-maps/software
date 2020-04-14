@@ -1,0 +1,23 @@
+@startmindmap
+center header
+Azure mind maps - Azure SQL
+endheader
+title Azure - Azure SQL Database(SQL DB) PaaS
+
+* <&flag> Azure SQL
+** Distributed transactions
+*** [[https://docs.microsoft.com/en-us/azure/sql-database/sql-database-elastic-transactions-overview Elastic database transactions]]\nNo MSDTC
+**** .Net 4.6.1 onwards
+**** Client library not TSQL
+**** Cannot work with WCF transactions
+caption Azure SQL - Mind Map - Updated on 2020-04-14
+center footer JoymonOnline
+
+legend right
+  Left Side - Specs, features & theories
+  Right Side - Use cases
+  [[https://medium.com/@darutk/diagrams-and-movies-of-all-the-oauth-2-0-flows-194f3c3ade85 Movie of OAuth]]
+  
+endlegend
+
+@endmindmap
