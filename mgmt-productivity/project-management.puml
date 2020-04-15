@@ -1,0 +1,28 @@
+@startmindmap
+center header
+Project management mind maps
+endheader
+title Project Management - Mind map
+
+* <&flag> Project Management
+** MVP
+*** [[https://dzone.com/articles/how-to-build-an-mvp-the-best-feature-prioritizatio Feature prioritization]]
+** Reporting 
+*** [[https://dzone.com/articles/two-data-points-the-vp-of-engineering-should-show-1 To CxO]]
+**** Cycle time
+**** Investiment profile
+** Estimation
+left
+** Methodologies
+** Tools
+
+caption Project Management - Mind map - Updated on 2020-04-15
+center footer JoymonOnline
+
+legend right
+  Left Side - Specs, features & theories
+  Right Side - Use cases
+  
+endlegend
+
+@endmindmap
