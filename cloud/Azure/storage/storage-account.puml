@@ -1,0 +1,76 @@
+@startmindmap
+center header
+Azure mind maps - Azure Storage Account
+endheader
+title Azure - Storage Account
+
+* <&flag> Storage Account
+** naming 
+*** 3-25,char &numbers, lowercase
+*** Unique
+** Use cases
+*** Blob
+**** Types
+***** BlockBlob
+***** Append
+***** Page
+**** Soft delete
+*** Queue
+*** Table
+*** File
+*** Disk
+*** Datalake Gen2
+**** Hierarchical namespace
+** Data Transfer
+*** ReST
+*** AzCopy
+*** Client libraries
+*** Storage Explorer
+left
+** [[https://docs.microsoft.com/en-us/azure/storage/common/storage-account-overview#types-of-storage-accounts Account Kind]]
+*** Standard
+**** Blob storage
+*** Premium 
+**** FileStorage
+**** BlockBlob
+*** GP v1
+*** GP v2
+**** Date lake Gen2
+** Access tiers
+*** Hot, Cool, Archive
+
+** HA/DR
+*** Replication
+**** LRS
+**** ZRS
+**** GRS
+**** RA-GRS
+**** GZRS
+**** RA-GZRS
+** [[https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits#storage-limits Limits]]
+** [[https://docs.microsoft.com/en-us/azure/storage/common/storage-account-overview#storage-account-billing Billing]]
+** Perf Tiers (Std,Premium)
+** Networking
+*** vNet Integration
+*** Custom domain
+*** CDN
+*** SSL
+** Security
+*** Auth
+**** AAD
+**** Keys
+**** SAS
+*** CORS
+*** Encryption
+**** MSFT Keys
+**** Customer Keys
+caption Azure Storage Account - Mind Map - Updated on 2020-04-15
+center footer JoymonOnline
+
+legend right
+  Left Side - Specs, features & theories
+  Right Side - Use cases
+  
+endlegend
+
+@endmindmap
