@@ -10,6 +10,11 @@ title Azure - Azure SQL Database(SQL DB) PaaS
 **** .Net 4.6.1 onwards
 **** Client library not TSQL
 **** Cannot work with WCF transactions
+left
+** Tiers
+** Limits
+** Feature parity
+** HA/DR
 caption Azure SQL - Mind Map - Updated on 2020-04-14
 center footer JoymonOnline
 
