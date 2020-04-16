@@ -18,6 +18,7 @@ title Azure - Storage Account
 *** Queue
 *** Table
 *** File
+**** Quota
 *** Disk
 *** Datalake Gen2
 **** Hierarchical namespace
@@ -26,6 +27,7 @@ title Azure - Storage Account
 *** AzCopy
 *** Client libraries
 *** Storage Explorer
+*** Azure Import Export
 left
 ** [[https://docs.microsoft.com/en-us/azure/storage/common/storage-account-overview#types-of-storage-accounts Account Kind]]
 *** Standard
