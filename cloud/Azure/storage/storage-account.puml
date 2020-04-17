@@ -28,6 +28,7 @@ title Azure - Storage Account
 *** Client libraries
 *** Storage Explorer
 *** Azure Import Export
+*** [[https://docs.microsoft.com/en-us/azure/storage/files/storage-sync-files-deployment-guide?tabs=azure-portal Azure File Sync]]
 left
 ** [[https://docs.microsoft.com/en-us/azure/storage/common/storage-account-overview#types-of-storage-accounts Account Kind]]
 *** Standard
