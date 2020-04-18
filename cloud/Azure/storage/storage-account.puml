@@ -29,6 +29,8 @@ title Azure - Storage Account
 *** Storage Explorer
 *** Azure Import Export
 *** [[https://docs.microsoft.com/en-us/azure/storage/files/storage-sync-files-deployment-guide?tabs=azure-portal Azure File Sync]]
+** Life cycle management rules
+*** [[https://docs.microsoft.com/en-us/azure/storage/blobs/storage-lifecycle-management-concepts?tabs=azure-portal#storage-account-support GPv2,Blob storage & Premium Block Blob]]
 left
 ** [[https://docs.microsoft.com/en-us/azure/storage/common/storage-account-overview#types-of-storage-accounts Account Kind]]
 *** Standard
@@ -44,12 +46,14 @@ left
 
 ** HA/DR
 *** Replication
-**** LRS
-**** ZRS
-**** GRS
-**** RA-GRS
-**** GZRS
-**** RA-GZRS
+**** Types
+***** LRS
+***** ZRS
+***** GRS
+***** RA-GRS
+***** GZRS
+***** RA-GZRS
+**** [[https://docs.microsoft.com/en-us/azure/storage/common/redundancy-migration?tabs=portal#switch-between-types-of-replication Switching]]
 ** [[https://docs.microsoft.com/en-us/azure/azure-resource-manager/management/azure-subscription-service-limits#storage-limits Limits]]
 ** [[https://docs.microsoft.com/en-us/azure/storage/common/storage-account-overview#storage-account-billing Billing]]
 ** Perf Tiers (Std,Premium)
