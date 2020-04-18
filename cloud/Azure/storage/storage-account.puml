@@ -59,6 +59,7 @@ left
 ** Perf Tiers (Std,Premium)
 ** Networking
 *** vNet Integration
+*** [[https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-service-endpoint-policies-overview vNet service endpoint]]
 *** Custom domain
 *** CDN
 *** SSL

@@ -5,11 +5,13 @@ endheader
 title Azure - Azure SQL Database(SQL DB) PaaS
 
 * <&flag> Azure SQL
-** Distributed transactions
-*** [[https://docs.microsoft.com/en-us/azure/sql-database/sql-database-elastic-transactions-overview Elastic database transactions]]\nNo MSDTC
-**** .Net 4.6.1 onwards
-**** Client library not TSQL
-**** Cannot work with WCF transactions
+** Elastic pools
+*** Moving databases
+*** Distributed transactions
+**** [[https://docs.microsoft.com/en-us/azure/sql-database/sql-database-elastic-transactions-overview Elastic database transactions]]\nNo MSDTC
+***** .Net 4.6.1 onwards
+***** Client library not TSQL
+***** Cannot work with WCF transactions
 left
 ** Tiers
 ** Limits
