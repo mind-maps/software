@@ -1,0 +1,87 @@
+@startmindmap
+center header
+Azure mind maps - Azure Virtual Machines
+endheader
+title Azure - Virtual Machines
+
+* <&flag> VirtualMachines
+** naming
+*** 1-64,char & numbers
+** Use cases
+*** Migration
+**** [[https://docs.microsoft.com/en-us/azure/site-recovery/migrate-tutorial-on-premises-azure Site recovery]] (legacy)
+**** [[https://docs.microsoft.com/en-us/azure/migrate/tutorial-migrate-vmware Azure Migrate]]
+*** VMSS Auto scaling
+*** Post installation 
+**** Extensions
+
+*** Diagnostics
+** Operations
+*** Auto shut down
+*** [[https://docs.microsoft.com/en-in/azure/backup/backup-azure-vms-first-look-arm Backup]]
+**** Back up to Recovery Services vault
+*** [[https://docs.microsoft.com/en-us/azure/automation/automation-update-management Update Management]]
+**** Needs Azure automation & log analytics
+*** [[https://docs.microsoft.com/en-us/azure/site-recovery/azure-to-azure-quickstart DR & Geo Replication]]
+**** Needs Azure automation & Recovery services vault
+
+left
+** [[https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sizes Size]]
+*** Generation
+**** Current
+**** Previous
+**** Older
+*** Family 
+**** General Purpose (A,B, D & DS Series)
+**** Memory optimized( D, DS, E, G, GS & M Series)
+**** Compute optimized( F Series)
+**** GPU (NV,NC Series)
+**** Storage optimized (L Series)
+**** High Performance(A, H,HC & HB Series)
+**** Confidential compute (DC Series)
+*** Premium disk(y/n)
+** HA/DR
+*** [[https://azure.microsoft.com/en-us/support/legal/sla/virtual-machines/ SLA]]
+**** 99.99% (Down time 52.60 Mins/year, 4.38 Mins/month) \n2+VMs across 2+AZone, same region
+**** 99.95% (Down time 4.38 Hrs/year,21.92 Mins/month)\n2+VMs same ASet or Dedicated Host Group
+**** 99.90% (Down time [[https://en.wikipedia.org/wiki/High_availability#Percentage_calculation 8.77 Hrs/year,43.83 Mins/month]])\n 1 VM, Premium SSD or Ultra for all OS & Data
+*** Availability
+**** Set
+***** [[https://docs.microsoft.com/en-us/azure/virtual-machines/windows/manage-availability#configure-multiple-virtual-machines-in-an-availability-set-for-redundancy Fault & update domains]]
+**** zone
+*** [[https://azure.microsoft.com/en-us/features/resiliency/ Resiliency]]
+** Disks
+*** HDD(Std)
+*** SSD(Std,Premium)
+*** Ultra disk
+** Networking
+*** NIC
+**** Accelerated n/w
+**** NSG
+**** IP Configurations
+***** Public IP
+***** Private IP
+***** Subnet
+****** Part of vNet
+****** NAT Gateway
+****** NSG
+****** Route table
+***** IP Forwarding
+**** DNS
+** Security
+*** Auth
+**** Windows (user/pass)
+**** Linux (user/pass & SSH)
+*** Encryption
+**** MSFT Keys
+**** Customer Keys
+caption Azure Virtual Machines - Mind Map - Updated on 2020-04-27
+center footer JoymonOnline
+
+legend right
+  Left Side - Specs, features & theories
+  Right Side - Use cases
+  
+endlegend
+
+@endmindmap
