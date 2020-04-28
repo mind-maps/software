@@ -14,8 +14,12 @@ title Azure - Virtual Machines
 *** VMSS Auto scaling
 *** Post installation 
 **** Extensions
-
 *** Diagnostics
+**** [[https://docs.microsoft.com/en-us/azure/virtual-machines/troubleshooting/performance-diagnostics Performance Diag]]
+*** Move VMs
+**** [[https://docs.microsoft.com/en-us/azure/site-recovery/azure-to-azure-tutorial-migrate Another region]]
+**** [[https://docs.microsoft.com/en-us/azure/site-recovery/move-azure-vms-avset-azone Availability zone]]
+**** [[https://docs.microsoft.com/en-us/azure/site-recovery/region-move-cross-geos public to govt]]
 ** Operations
 *** Auto shut down
 *** [[https://docs.microsoft.com/en-in/azure/backup/backup-azure-vms-first-look-arm Backup]]
@@ -39,7 +43,25 @@ left
 **** Storage optimized (L Series)
 **** High Performance(A, H,HC & HB Series)
 **** Confidential compute (DC Series)
-*** Premium disk(y/n)
+** Networking / NIC
+
+*** Accelerated n/w
+*** NSG
+*** IP Configurations
+**** Public IP
+**** Private IP
+**** Subnet
+***** Part of vNet
+***** NAT Gateway
+***** NSG
+***** Route table
+**** IP Forwarding
+*** DNS
+** Disks
+*** SSD(Std,Premium)
+*** HDD(Std)
+*** Ultra disk
+
 ** HA/DR
 *** [[https://azure.microsoft.com/en-us/support/legal/sla/virtual-machines/ SLA]]
 **** 99.99% (Down time 52.60 Mins/year, 4.38 Mins/month) \n2+VMs across 2+AZone, same region
@@ -50,24 +72,7 @@ left
 ***** [[https://docs.microsoft.com/en-us/azure/virtual-machines/windows/manage-availability#configure-multiple-virtual-machines-in-an-availability-set-for-redundancy Fault & update domains]]
 **** zone
 *** [[https://azure.microsoft.com/en-us/features/resiliency/ Resiliency]]
-** Disks
-*** HDD(Std)
-*** SSD(Std,Premium)
-*** Ultra disk
-** Networking
-*** NIC
-**** Accelerated n/w
-**** NSG
-**** IP Configurations
-***** Public IP
-***** Private IP
-***** Subnet
-****** Part of vNet
-****** NAT Gateway
-****** NSG
-****** Route table
-***** IP Forwarding
-**** DNS
+
 ** Security
 *** Auth
 **** Windows (user/pass)
