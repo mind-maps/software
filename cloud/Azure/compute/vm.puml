@@ -10,7 +10,9 @@ title Azure - Virtual Machines
 ** Use cases
 *** Migration
 **** [[https://docs.microsoft.com/en-us/azure/site-recovery/migrate-tutorial-on-premises-azure Site recovery]] (legacy)
+***** [[https://docs.microsoft.com/en-us/azure/site-recovery/vmware-physical-azure-support-matrix Support matrix]]
 **** [[https://docs.microsoft.com/en-us/azure/migrate/tutorial-migrate-vmware Azure Migrate]]
+***** [[https://docs.microsoft.com/en-us/azure/migrate/server-migrate-overview#compare-migration-methods Agent v/s Agentless]]
 *** VMSS Auto scaling
 *** Post installation 
 **** Extensions
@@ -28,7 +30,8 @@ title Azure - Virtual Machines
 **** Needs Azure automation & log analytics
 *** [[https://docs.microsoft.com/en-us/azure/site-recovery/azure-to-azure-quickstart DR & Geo Replication]]
 **** Needs Azure automation & Recovery services vault
-
+**** [[https://docs.microsoft.com/en-us/azure/site-recovery/hyper-v-azure-support-matrix On-prem Hyper-V Support matrix]]
+**** [[https://docs.microsoft.com/en-us/azure/site-recovery/azure-to-azure-architecture Azure to Azure ]] & [[https://docs.microsoft.com/en-us/azure/site-recovery/azure-to-azure-architecture support matrix]]
 left
 ** [[https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sizes Size]]
 *** Generation
