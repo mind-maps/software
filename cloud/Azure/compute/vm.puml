@@ -39,15 +39,15 @@ left
 **** Previous
 **** Older
 *** Family 
-**** General Purpose (A,B, D & DS Series)
-**** Memory optimized( D, DS, E, G, GS & M Series)
-**** Compute optimized( F Series)
-**** GPU (NV,NC Series)
-**** Storage optimized (L Series)
-**** High Performance(A, H,HC & HB Series)
-**** Confidential compute (DC Series)
+****_ General Purpose (A,B, D & DS Series)
+****_ Memory optimized( D, DS, E, G, GS & M Series)
+****_ Compute optimized( F Series)
+****_ GPU (NV,NC Series)
+****_ Storage optimized (L Series)
+****_ High Performance(A, H,HC & HB Series)
+****_ Confidential compute (DC Series)
 ** Networking / NIC
-
+*** [[https://docs.microsoft.com/en-us/azure/load-balancer/load-balancer-overview Load balancing]]
 *** Accelerated n/w
 *** NSG
 *** IP Configurations
