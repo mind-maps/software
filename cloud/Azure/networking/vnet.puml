@@ -1,0 +1,30 @@
+@startmindmap
+center header
+Azure mind maps - Azure Virtual Network
+endheader
+title Azure - Virtual Network & Subnets
+
++ <&flag> VNet
+++ Connect to onprem
++++ P2S VPN
++++ S2S VPN
+++++_ [[https://docs.microsoft.com/en-us/azure/vpn-gateway/vpn-gateway-highlyavailable HA]]
++++ Express Route
+-- Address space
+-- Subnets
+--- Route table
+-- DDos
+---_ Basic
+---_ Standard
+-- DNS
+-- Peering
+caption Azure Virtual Network - Mind Map - Updated on 2020-04-30
+center footer JoymonOnline
+
+legend right
+  Left Side - Specs, features & theories
+  Right Side - Use cases
+  
+endlegend
+
+@endmindmap
