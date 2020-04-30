@@ -15,5 +15,7 @@
   - Azure
     - Compute
       - [Virtual Machines](http://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/cloud/Azure/compute/vm.puml)
+    - Networking
+      - [Virtual Network and Subnets](http://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/cloud/Azure/networking/vnet.puml)
     - Security
       - [Microsoft Identity Platform OAuth](http://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/cloud/Azure/microsoft-identity-platform-oauth.puml)
