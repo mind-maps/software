@@ -1,0 +1,25 @@
+@startmindmap
+center header
+Azure mind maps - Azure DNS
+endheader
+title Azure - DNS
+
++ <&flag> Azuer DNS
+caption Azure DNS - Mind Map - Updated on 2020-05-08
+center footer JoymonOnline
+-- Public
+--- Domain
+--- DNS Zone
+---- Name Servers
+-- Private
+--- Inside vNet
+--- Types
+---- Azure provided
+---- Custom 
+legend right
+  Left Side - Specs, features & theories
+  Right Side - Use cases
+  
+endlegend
+
+@endmindmap
