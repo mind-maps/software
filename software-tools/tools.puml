@@ -1,0 +1,47 @@
+@startmindmap
+center header
+Software tools - I am using
+endheader
+title Software technologies, tools and utilities
+caption Software technologies, tools and utilities - Mind Map - Updated on 2020-05-17
+center footer JoymonOnline
++ <&flag> Software
+++ Media
++++ Photos
+++++ Editing
++++++ Desktop - Paint.Net
++++++ Online - [[https://www.photopea.com/ PhotoPea]]
++++ Video
+++++ Player - VLC
+++++ Editing
++++++ Editor - Shotcut
++++++ Cut and merge - LosslessCut
++++ Audio
+++++ Audacity
+++ Files
++++ Find duplicate - AllDup
++++ Cleaner - CClearer
++++ Compare - WinMerge
+++ System
++++ Antivirus
+++++ Window defender
+++++ Avg
++++ Partitioning
+
+-- IDE/Editor
+--- Visual Studio 2019
+--- VS Code
+--- Notepad++
+-- Technologies
+--- NodeJS
+--- ASP.Net Core
+-- Scripting
+--- PowerShell
+legend right
+All the tools are free, mostly open source.
+Left Side - Tools used for software development and debugging
+Right Side - Misc tools good for personal and work
+  
+endlegend
+
+@endmindmap

@@ -1,21 +1,22 @@
 # Minds maps related to software
 
-- [Debugging](http://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/debugging/before-debugging-others-problem.puml){:target="_blank"}
-- [Windows network Debugging tools and commands for developers](http://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/debugging/windows-network-debugging.puml){:target="_blank"}
+- [Software I am using](https://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/software-tools/tools.puml){:target="_blank"}
+- [Debugging](https://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/debugging/before-debugging-others-problem.puml){:target="_blank"}
+- [Windows network Debugging tools and commands for developers](https://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/debugging/windows-network-debugging.puml){:target="_blank"}
  - Programming
    - Web front end
-     - [Web front end](http://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/programming/web-front-end/tools-tech.puml){:target="_blank"}
+     - [Web front end](https://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/programming/web-front-end/tools-tech.puml){:target="_blank"}
    - DotNet
-     - [DotNet Performance](http://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/programming/dot-net/dotnet-web-performance.puml){:target="_blank"}
+     - [DotNet Performance](https://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/programming/dot-net/dotnet-web-performance.puml){:target="_blank"}
    - Database
      - SQL Server
-       - [SQL Server Performance](http://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/programming/database/sql-server/sql-server-performance.puml){:target="_blank"}
-       - [SQL Server Always On Availability Group](http://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/programming/database/sql-server/always-on-availability-groups.puml){:target="_blank"}
+       - [SQL Server Performance](https://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/programming/database/sql-server/sql-server-performance.puml){:target="_blank"}
+       - [SQL Server Always On Availability Group](https://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/programming/database/sql-server/always-on-availability-groups.puml){:target="_blank"}
 - Cloud
   - Azure
     - Compute
-      - [Virtual Machines](http://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/cloud/Azure/compute/vm.puml)
+      - [Virtual Machines](https://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/cloud/Azure/compute/vm.puml)
     - Networking
-      - [Virtual Network and Subnets](http://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/cloud/Azure/networking/vnet.puml)
+      - [Virtual Network and Subnets](https://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/cloud/Azure/networking/vnet.puml)
     - Security
-      - [Microsoft Identity Platform OAuth](http://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/cloud/Azure/microsoft-identity-platform-oauth.puml)
+      - [Microsoft Identity Platform OAuth](https://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/cloud/Azure/microsoft-identity-platform-oauth.puml)
