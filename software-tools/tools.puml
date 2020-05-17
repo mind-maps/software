@@ -22,12 +22,18 @@ center footer JoymonOnline
 +++ Find duplicate - AllDup
 +++ Cleaner - CClearer
 +++ Compare - WinMerge
++++ Cloud storage
+++++ GDrive, OneDrive
+++ Office
++++ Google Docs, Sheets
++++ One Note
 ++ System
 +++ Antivirus
 ++++ Window defender
 ++++ Avg
 +++ Partitioning
-
+-- Debugging
+--- [[http://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/debugging/windows-network-debugging.puml Network]]
 -- IDE/Editor
 --- Visual Studio 2019
 --- VS Code
@@ -37,6 +43,7 @@ center footer JoymonOnline
 --- ASP.Net Core
 -- Scripting
 --- PowerShell
+
 legend right
 All the tools are free, mostly open source.
 Left Side - Tools used for software development and debugging
