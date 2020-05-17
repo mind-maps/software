@@ -19,8 +19,9 @@ center footer JoymonOnline
 +++ Audio
 ++++ Audacity
 ++ Files
-+++ Find duplicate - AllDup
-+++ Cleaner - CClearer
++++ Clean
+++++ Find duplicate - AllDup
+++++ Cleaner - CClearer
 +++ Compare - WinMerge
 +++ Cloud storage
 ++++ GDrive, OneDrive
@@ -32,22 +33,34 @@ center footer JoymonOnline
 ++++ Window defender
 ++++ Avg
 +++ Partitioning
--- Debugging
---- [[http://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/debugging/windows-network-debugging.puml Network]]
--- IDE/Editor
---- Visual Studio 2019
---- VS Code
---- Notepad++
 -- Technologies
 --- NodeJS
 --- ASP.Net Core
 -- Scripting
 --- PowerShell
+-- IDE/Editor
+--- Visual Studio 2019
+--- VS Code
+--- Notepad++
+-- DevOps
+--- Source control - GitHub
+--- CI/CD
+---- AppVeyor
+---- TravisCI
+-- Hosting
+--- Domain - GoDaddy (paid)
+--- Static site
+---- GitHub Pages
+--- APIs
+---- Azure App Service, Functions
+---- [[https://firebase.google.com/pricing Firebase]]
+-- Debugging
+--- [[http://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/debugging/windows-network-debugging.puml Network]]
 
 legend right
 All the tools are free, mostly open source.
 Left Side - Tools used for software development and debugging
-Right Side - Misc tools good for personal and work
+Right Side - Misc tools for personal and work
   
 endlegend
 
