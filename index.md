@@ -1,13 +1,7 @@
 # Minds maps related to software
-
-<<<<<<< HEAD
-- [Software I am using](https://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/software-tools/tools.puml){:target="_blank"}
-- [Debugging](https://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/debugging/before-debugging-others-problem.puml){:target="_blank"}
-- [Windows network Debugging tools and commands for developers](https://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/debugging/windows-network-debugging.puml){:target="_blank"}
-=======
+[Software I am using](https://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/software-tools/tools.puml){:target="_blank"}
 - [Debugging](https://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/debugging/before-debugging-others-problem.puml){:target="_blank"}
 - [Windows network Debugging tools and commands for developers](http://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/debugging/windows-network-debugging.puml){:target="_blank"}
->>>>>>> 5e86d0d823c65bb967a1d5e9972d20c641700a5e
  - Programming
    - Web front end
      - [Web front end](https://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/programming/web-front-end/tools-tech.puml){:target="_blank"}
