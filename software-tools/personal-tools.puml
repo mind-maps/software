@@ -1,0 +1,85 @@
+@startmindmap
+center header
+Software tools - I am using
+endheader
+title Software technologies, tools and utilities - Personal Use
+caption Software technologies, tools and utilities - Mind Map - Updated on 2020-05-17
+center footer JoymonOnline
+* <&flag> Software
+** Design
+*** Diagrams - PlantUML
+*** Documentation - Markdown
+** Technologies
+*** Scripting
+**** PowerShell
+*** Container
+**** Docker
+*** Automation / NoCode
+**** [[https://zapier.com/home Zapier]] & [[https://gist.github.com/joymon/89aeb18bef588895426b46a54e2ba970 others]]
+*** Visualization
+**** Power BI
+** IDE/Editor
+*** VS Code
+*** Notepad++
+
+** Media
+*** Photos
+**** Snapshot - Snipper
+**** Editing
+***** Desktop - Paint.Net
+***** Online - [[https://www.photopea.com/ PhotoPea]]
+**** Design
+***** Spark, [[https://snappa.com/ Snappa]], [[https://www.canva.com/ Canva]]
+*** Video
+**** Player - VLC
+**** Production
+***** Editor - Shotcut
+***** Cut and merge - LosslessCut
+***** Screen cast - ActivePresenter
+*** Audio
+**** Audacity
+
+left side
+** Task management - Trello
+** System
+*** OS
+**** Win 10
+*** Antivirus
+**** Window defender
+**** Avg
+*** Partitioning - [[https://www.diskpart.com/free-partition-manager.html AOMEI]]
+*** Unlocker
+** Files
+*** Clean
+**** Find duplicate - AllDup
+**** Cleaner - CClearer
+*** Compare - WinMerge
+*** Sync
+**** SyncToy(Windows)
+*** Cloud storage
+**** GDrive, OneDrive
+** Office
+*** Google Docs, Sheets
+*** One Note
+*** Editing
+**** Grammarly
+** Publishing
+*** Video
+**** YouTube
+***** Joymon v/s Code
+***** The J3D Family
+***** Johan & Jerin Playtime
+*** Blog
+**** Blogger
+***** Joymon v/s Code
+***** എന്‍റെ ബ്ലോഗാന്വേഷണ പരീക്ഷണങ്ങള്‍
+
+legend right
+All the tools are free, mostly open source. Except Win 10
+Left Side - Tools used for infrastructure and environment
+Right Side - Tools for personal projects
+[[https://joymonscode.blogspot.com/2017/05/toolbox-for-open-source-developers.html Old plain list]]
+  
+endlegend
+
+@endmindmap

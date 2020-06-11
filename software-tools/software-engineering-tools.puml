@@ -1,0 +1,72 @@
+@startmindmap
+center header
+Software tools - I am using for personal Software engineering
+endheader
+title Software technologies, tools and utilities - Personal projects
+caption Software technologies, tools and utilities - Mind Map - Updated on 2020-05-17
+center footer JoymonOnline
+* <&flag> Software
+** Debugging
+*** .Net Code
+**** WinDbg, DebugDiag
+*** Performance
+**** Perfview
+*** Network
+**** Remote desktop connection manager
+**** [[http://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind*maps/software/master/debugging/windows*network*debugging.puml Network tools & cmds]]
+*** Decompile .Net - [[https://www.telerik.com/products/decompiler.aspx JustDecompile]]
+*** System
+**** [[https://docs.microsoft.com/en-us/sysinternals/ SysInternals]]
+*** Logs - Logparser Studio
+
+** Files
+*** Compare - WinMerge
+*** Unlocker
+
+left side
+
+** Design
+*** Diagrams - PlantUML
+*** Documentation - Markdown
+** Technologies
+*** NodeJS + NPM
+*** ASP.Net Core + Nuget
+*** Container
+**** Docker
+*** Automation / NoCode
+**** [[https://zapier.com/home Zapier]] & [[https://gist.github.com/joymon/89aeb18bef588895426b46a54e2ba970 others]]
+*** Visualization
+**** Power BI
+
+** Scripting
+*** PowerShell
+** DevOps
+*** GitHub
+**** Source control
+**** Tasks,issues
+*** CI/CD
+**** AppVeyor
+**** TravisCI
+** IDE/Editor
+*** Visual Studio 2019
+*** VS Code
+*** Notepad++
+
+** Hosting
+*** Domain - GoDaddy (paid)
+*** Static site
+**** GitHub Pages
+*** APIs
+**** Azure App Service, Functions
+**** [[https://firebase.google.com/pricing Firebase]]
+**** WebTask.io
+
+legend right
+All the tools are free, mostly open source.
+Left Side - Tools used for software development 
+Right Side - Debugging & Misc tools
+[[https://joymonscode.blogspot.com/2017/05/toolbox-for-open-source-developers.html Old plain list]]
+  
+endlegend
+
+@endmindmap
