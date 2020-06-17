@@ -7,8 +7,8 @@ caption Software technologies, tools and utilities - Mind Map - Updated on 2020-
 center footer JoymonOnline
 * <&flag> Software
 ** Design
-*** Diagrams - PlantUML
-*** Documentation - Markdown
+*** Diagrams - [[https://en.wikipedia.org/wiki/PlantUML PlantUML]] - ([[https://www.youtube.com/watch?v=Zt3Bj1HMJ8g Set up video]])
+*** Documentation - [[https://en.wikipedia.org/wiki/Markdown Markdown]]
 ** Technologies
 *** Scripting
 **** PowerShell
@@ -19,8 +19,8 @@ center footer JoymonOnline
 *** Visualization
 **** Power BI
 ** IDE/Editor
-*** VS Code
-*** Notepad++
+*** [[https://code.visualstudio.com/ VS Code]]
+*** [[https://notepad-plus-plus.org/ Notepad++]]
 
 ** Media
 *** Photos
@@ -32,18 +32,21 @@ center footer JoymonOnline
 ***** Stock 
 ****** [[https://www.vectorstock.com/ VectorStock.com]]
 **** Raster photos
-***** Desktop - Paint.Net
+***** Desktop - [[https://www.getpaint.net/ Paint.Net]]
 ***** Online - [[https://www.photopea.com/ PhotoPea]]
 **** Design
 ***** Spark, [[https://snappa.com/ Snappa]], [[https://www.canva.com/ Canva]]
 *** Video
-**** Player - VLC
+**** Player - [[https://www.videolan.org/vlc/download-windows.html VLC]]
 **** Production
-***** Editor - Shotcut
-***** Cut and merge - LosslessCut
-***** Screen cast - ActivePresenter
+***** Editor - [[https://shotcut.org/download/ Shotcut]]
+***** Cut and merge - [[https://github.com/mifi/lossless-cut/releases LosslessCut]]
+***** Screen cast / Tutorial
+****** [[https://atomisystems.com/download/ ActivePresenter]]
+***** Streaming - [[https://obsproject.com/download OBS Studio]]
+
 *** Audio
-**** Audacity
+**** Record, edit, noise removal - [[https://www.audacityteam.org/download/ Audacity]]
 
 left side
 
@@ -65,24 +68,24 @@ left side
 *** Compare
 **** [[https://winmerge.org/?lang=en WinMerge]]
 *** Sync
-**** SyncToy(Windows)
+**** [[https://www.microsoft.com/en-us/download/details.aspx?id=15155 SyncToy]](Windows)
 *** Cloud storage
 **** GDrive, OneDrive
 ** Office
 *** Google Docs, Sheets
-*** One Note
+*** [[https://www.onenote.com/ One Note]]
 *** Editing
 **** Grammarly
 ** Publishing
 *** Video
 **** YouTube
-***** Joymon v/s Code
-***** The J3D Family
-***** Johan & Jerin Playtime
+***** [[https://www.youtube.com/channel/UC78wYrq_keVaDV8STReHRxg Joymon v/s Code]]
+***** [[https://www.youtube.com/channel/UCzYqSifCwLYpmgRxvNo7BzA The J3D Family]]
+***** [[https://www.youtube.com/channel/UC1D3Fy0L0aoI0OfUEZnWy5A Johan & Jerin Playtime]]
 *** Blog
 **** Blogger
-***** Joymon v/s Code
-***** എന്‍റെ ബ്ലോഗാന്വേഷണ പരീക്ഷണങ്ങള്‍
+***** [[https://joymonscode.blogspot.com/ Joymon v/s Code]]
+***** [[https://joy-mon.blogspot.com/ എന്‍റെ ബ്ലോഗാന്വേഷണ പരീക്ഷണങ്ങള്‍]] ([[https://en.wikipedia.org/wiki/Malayalam Malayalam language]])
 
 legend right
 All the tools are free, mostly open source. Except Win 10
