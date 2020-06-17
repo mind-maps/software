@@ -46,6 +46,7 @@ center footer JoymonOnline
 **** Audacity
 
 left side
+
 ** Task management - Trello
 ** System
 *** OS
@@ -54,12 +55,15 @@ left side
 **** Window defender
 **** Avg
 *** Partitioning - [[https://www.diskpart.com/free-partition-manager.html AOMEI]]
-*** Unlocker
+*** [[http://www.emptyloop.com/unlocker/ Unlocker]]
 ** Files
 *** Clean
-**** Find duplicate - AllDup
-**** Cleaner - CClearer
-*** Compare - WinMerge
+**** Find duplicate
+***** [[http://www.alldup.info/en_download_alldup.php AllDup]]
+**** Cleaner
+***** [[https://www.ccleaner.com/ CClearer]]
+*** Compare
+**** [[https://winmerge.org/?lang=en WinMerge]]
 *** Sync
 **** SyncToy(Windows)
 *** Cloud storage
