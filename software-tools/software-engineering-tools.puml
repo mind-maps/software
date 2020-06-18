@@ -86,7 +86,11 @@ left side
 **** [[https://firebase.google.com/pricing Firebase]]
 **** WebTask.io
 ** Monitoring
-*** Hosted
+*** Ping
+**** Uptime check
+***** [[https://uptimerobot.com/pricing UptimeRobot]]
+
+*** Hosted Log Aggregator
 **** [[https://www.loggly.com/plans-and-pricing/ Loggly]]
 **** [[https://www.papertrail.com/plans/ Papertrail]]
 **** [[https://sentry.io/pricing/ Sentry]]
@@ -100,5 +104,4 @@ Right Side - Debugging & Misc tools
 [[https://joymonscode.blogspot.com/2017/05/toolbox-for-open-source-developers.html Old plain list]]
   
 endlegend
-
 @endmindmap
