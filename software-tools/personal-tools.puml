@@ -38,12 +38,10 @@ center footer JoymonOnline
 ***** Spark, [[https://snappa.com/ Snappa]], [[https://www.canva.com/ Canva]]
 *** Video
 **** Player - [[https://www.videolan.org/vlc/download-windows.html VLC]]
-**** Production
-***** Editor - [[https://shotcut.org/download/ Shotcut]]
-***** Cut and merge - [[https://github.com/mifi/lossless-cut/releases LosslessCut]]
-***** Screen cast / Tutorial
-****** [[https://atomisystems.com/download/ ActivePresenter]]
-***** Streaming - [[https://obsproject.com/download OBS Studio]]
+**** [[https://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/technology/master/media/video/publishing.puml Production]]
+
+
+
 
 *** Audio
 **** Record, edit, noise removal - [[https://www.audacityteam.org/download/ Audacity]]
