@@ -29,6 +29,11 @@ center footer JoymonOnline
 *** [[https://www.whatasoftware.com/ Whatasoftware]]
 *** [[https://stackshare.io/ stackshare]]
 *** [[https://www.slant.co/ Slant.co]]
+** Hosted tools
+*** RegEx
+*** [[https://countwordsfree.com/text-encode Html & Url encode and decode]]
+*** [[https://jwt.io JSON Web Token tester]]
+*** [[https://countwordsfree.com/jsonviewer JSON & XML Formatters]]
 ** Debugging
 *** .Net Code 
 **** WinDbg, DebugDiag 
@@ -52,6 +57,7 @@ left side
 *** Diagrams - PlantUML
 *** Documentation - Markdown
 ** Technologies
+*** [[https://forms.microsoft.com/ Forms, surveys, polls]]
 *** Automation / NoCode
 **** [[https://zapier.com/home Zapier]] & [[https://gist.github.com/joymon/89aeb18bef588895426b46a54e2ba970 others]]
 *** Visualization
