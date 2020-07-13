@@ -1,0 +1,33 @@
+@startuml
+@startmindmap
+title Mind map of Hugo
+center header
+Static Site Generators - Hugo
+endheader
+
+caption Mind map of Static Site Generator - Hugo
+center footer JoymonOnline
+* <&flag><b>Hugo</b>
+** WebAPIs
+*** Auth only via URL\nNo OAuth or other types
+*** Call during page build not from browser
+*** Types
+**** getJSON
+**** [[https://gohugo.io/templates/data-templates/#data-driven-content getCSV()]]
+left side
+** Arche
+** Content
+*** [[https://gohugo.io/content-management/front-matter/ Front matter]]
+*** [[https://gohugo.io/content-management/shortcodes/ Shortcodes]]
+** [[https://gohugo.io/templates/data-templates/ Data Templates]]
+*** [[https://gohugo.io/templates/lookup-order/ Lookup order]]
+*** Types
+**** [[https://gohugo.io/templates/homepage/ Home page]]
+**** [[https://gohugo.io/templates/single-page-templates/ Single page]]
+**** [[https://gohugo.io/templates/lists/ List page template]]
+legend right
+  Left Side - Concepts
+  Right Side - Use cases, designs, FAQ & hacks
+endlegend
+@endmindmap
+@enduml
