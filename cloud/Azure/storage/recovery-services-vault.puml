@@ -1,0 +1,36 @@
+@startmindmap
+center header
+Azure mind maps - Azure Recovery Services vault
+endheader
+title Azure - Recovery Services vault
+
+* <&flag> Recovery Services Vault
+** Backup
+*** Features
+**** [[https://docs.microsoft.com/en-us/azure/backup/backup-azure-vms-introduction Store in Recovery Services vault]]
+**** [[https://docs.microsoft.com/en-us/azure/backup/backup-overview#whats-the-difference-between-azure-backup-and-azure-site-recovery What it can backup]]
+***** on prem
+****** MARS agent
+******* (file, folder system state)
+****** MABS agent
+******* VMs(Hyper-V& VMWare)
+***** Azure
+****** VMs,File Shares, SQL Server on VM,SAP HANA on VM
+**** [[https://docs.microsoft.com/en-us/azure/backup/backup-support-matrix Support matrix]]
+*** Use cases
+**** [[https://docs.microsoft.com/en-us/azure/backup/backup-azure-vms-first-look-arm Backup from portal]]
+** [[https://docs.microsoft.com/en-us/azure/site-recovery/site-recovery-overview Site Recovery(DR)]]
+*** OnPrem
+**** [[https://docs.microsoft.com/en-us/azure/site-recovery/hyper-v-prepare-on-premises-tutorial OnPrem VM Prep]]
+**** [[https://docs.microsoft.com/en-us/azure/site-recovery/vmware-physical-azure-support-matrix Support matrix of VMWare & Physical servers]]
+**** [[https://social.technet.microsoft.com/wiki/contents/articles/52212.azure-site-recovery-migrate-hyper-v-virtual-machine-to-azure.aspx Hyper-V]]
+caption Azure Recovery Services vault - Mind Map - Updated on 2020-07-14
+center footer JoymonOnline
+
+legend right
+  Left Side - Specs, features & theories
+  Right Side - Use cases
+  
+endlegend
+
+@endmindmap
