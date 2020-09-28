@@ -46,14 +46,16 @@ center footer JoymonOnline
 
 left side
 
-** Task management
+**_ Task management
 *** [[https://trello.com/ Trello]]
 ** System
 *** OS
-**** Win 10
-*** [[https://www.av-test.org/en/antivirus/home-windows/ Antivirus]]
-**** Window defender
-**** [[https://www.avg.com/ Avg]]
+**** Windows 10
+***** [[https://github.com/joymon/win10-dev-box-setup Environment setup]]
+****** Choco+PowerShell
+***** [[https://www.av-test.org/en/antivirus/home-windows/ Antivirus]]
+****** Window defender
+****** [[https://www.avg.com/ Avg]]
 *** Partitioning - [[https://www.diskpart.com/free-partition-manager.html AOMEI]]
 *** [[http://www.emptyloop.com/unlocker/ Unlocker]]
 ** Files
@@ -70,11 +72,11 @@ left side
 **** GDrive, OneDrive
 ** Office
 *** Google Docs, Sheets
+*** Presentation slides
+**** [[https://revealjs.com/ RevealJS]] + [[https://marketplace.visualstudio.com/items?itemName=evilz.vscode-reveal VSCode Ext]]
 *** [[https://www.onenote.com/ One Note]]
 *** Editing
 **** [[https://app.grammarly.com/ Grammarly]]
-*** Presentation slides
-**** [[https://revealjs.com/ RevealJS]] + [[https://marketplace.visualstudio.com/items?itemName=evilz.vscode-reveal VSCode Ext]]
 ** Publishing
 *** Video
 **** YouTube
