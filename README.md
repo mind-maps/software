@@ -21,6 +21,8 @@ Preview
 - PlantUML extension into VSCode
 - Alt+D to view preview
 
+Please watch the [video](https://www.youtube.com/watch?v=Zt3Bj1HMJ8g) for environment setup.
+
 Generate image
 - NPM Install
 - NPM run build
