@@ -1,0 +1,31 @@
+@startmindmap
+center header
+Azure mind maps - Azure Synapse Analytics 
+endheader
+title Azure - Azure Synapse Analytics PaaS
+
+* <&flag> Azure Synapse Analytics
+** Ingestion
+** Analytics
+** Warehousing
+left side
+** Partitioning
+*** Clustered Column Store
+*** Clustered Index
+*** Heap
+** Distribution
+*** 60 distributions
+*** Types
+**** Replication
+**** Hash
+**** Round Robin (Default)
+caption Azure Synapse Analytics  - Mind Map - Updated on 2021-02-04
+center footer JoymonOnline
+
+legend right
+  Left Side - Specs, features & theories
+  Right Side - Use cases
+  
+endlegend
+
+@endmindmap
