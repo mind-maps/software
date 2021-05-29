@@ -54,7 +54,11 @@ center footer JoymonOnline
 left side
 
 ** Design
-*** Diagrams - PlantUML
+*** Diagrams
+**** PlantUML
+**** Online
+***** [[https://lucid.app Lucid Charts]]
+***** [[https://creately.com Creately]]
 *** Documentation - Markdown
 ** Technologies
 *** [[https://forms.microsoft.com/ Forms, surveys, polls]]
