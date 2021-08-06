@@ -1,0 +1,86 @@
+@startmindmap
+title Kubernetes - Mindmap from the birds eys view
+center header
+Kubernetes
+endheader
+
+* <b>[[https://kubernetes.io/ Kubernetes]]</b>
+** Implementation using K8s objects
+*** Workloads
+**** Pod
+**** Deployment
+***** Replica
+**** StatefulSet
+**** DaemonSet
+
+**** Jobs & CronJob
+**** [[https://kubernetes.io/docs/concepts/overview/working-with-objects/labels/ Labels and selectors]]
+**** [[https://kubernetes.io/docs/concepts/overview/working-with-objects/annotations/ Annotations]]
+*** Services and networking
+**** Service
+**** [[https://kubernetes.io/docs/concepts/services-networking/ingress/ Ingress]]
+**** [[https://kubernetes.io/docs/concepts/services-networking/ingress-controllers/ Ingress controllers]]
+**** [[https://kubernetes.io/docs/concepts/services-networking/endpoint-slices/ Endpoint Slices]]
+**** [[https://kubernetes.io/docs/concepts/services-networking/network-policies/ Network policies]]
+*** Storage
+**** Volumes
+**** Persistent Volumes
+*** configuration
+**** ConfigMap
+**** Secrets
+*** [[https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/ namespaces]]
+left side
+** Features
+*** workload
+**** Self healing
+**** bin packing
+**** Roll backs
+*** Networking
+**** Load balancing
+**** [[https://kubernetes.io/docs/concepts/services-networking/dual-stack/ IPv4/IPv6 dual-stack ]]
+*** Extensible
+*** Onprem and cloud
+**** Cloud
+*****_ Azure - [[https://azure.microsoft.com/en-us/services/kubernetes-service/ AKS]]
+*****_ Google - [[https://cloud.google.com/kubernetes-engine GKE]]
+*****_ AWS - [[https://aws.amazon.com/eks EKS]]
+** Use cases
+*** Host any application
+** Cluster Infra
+*** Nodes
+**** Control (Linux only)
+***** Control plane 
+****** [[https://kubernetes.io/docs/concepts/overview/kubernetes-api/ api server]]
+****** etcd
+****** scheduler
+****** kube-controller-manager
+****** cloud-controller-manager
+
+**** Worker (Linux,Windows)
+***** Node Components
+****** container-runtime
+*******_ <s>Docker</s>
+*******_ containerd
+*******_ CRI-O
+
+****** Kubelet
+****** kube-proxy
+
+*** addons
+**** DNS
+**** Web UI Dashboard
+**** Container resource monitoring
+**** Cluster level logging
+
+caption Kubernetes  - Updated on 2021-08-06
+center footer JoymonOnline
+
+legend right
+  Left Side - K8s features, use cases
+  Right Side - Infrastructure and implemenation 
+  
+  Includes only stable features.
+
+endlegend
+
+@endmindmap
