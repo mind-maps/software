@@ -1,32 +1,31 @@
 @startuml
 @startmindmap
 center header
-.Net Console App Performance
+.Net Console App Development
 endheader
 
 title Mind map of useful nuget packages for console application development 
 
-+ <&flag><b>Console App</b>
-++ <&globe>CommandLine
-++ Menu driven
-+++ [[https://github.com/damianh/EasyConsoleStd EasyConsoleStd]]
-++ REPL
-
--- User Interface
---- Tables
---- Dialogs
-caption Mind map of .Net performance considerations
-center footer JoymonOnline
+* <&flag><b>Console App</b>
+** <&globe>CommandLine
+*** Simple - [[https://github.com/bilal-fazlani/CommandDotNet CommandDotNet]]
+*** Sophisticated [[https://github.com/commandlineparser/commandline CommandLineParser]]
+** Menu driven
+*** [[https://github.com/damianh/EasyConsoleStd EasyConsoleStd]]
+** REPL
+left side
+** User Interface
+*** Tables
+*** Dialogs
 
 legend right
-  Left Side - Browser
-  Right Side - Network, infrastructure & servers
   Other lists
   - [[https://github.com/quozd/awesome-dotnet#cli Awesome curated list]]
   More
    - Some nugets are applicable for other type of applications such as desktop, web etc..
 
 endlegend
+caption Mind map of .Net performance considerations
+center footer JoymonOnline
 @endmindmap
 @enduml
-@end
