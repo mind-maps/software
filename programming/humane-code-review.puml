@@ -1,0 +1,104 @@
+@startmindmap
+center header
+Code review - Checklist and how to do it humane way
+endheader
+title Code review
+* <&flag> Code review
+** Why we code review?
+*** Functionality
+*** Regulatory Requirements
+****_ PII
+****_ Protocols
+*** Design flaws
+**** Race conditions
+**** Edge
+**** Here or libary
+*** Clarity
+*** Coherence
+**** DI
+**** SOLID
+*** Necessity
+**** YAGNI
+**** Unused, dead code
+**** Removed feature
+
+** What not to do
+*** Personal
+****_ Not to show reviewer is techie
+****_ Review code not coder
+****_ Code review > 1 hour
+****_ Code review at end
+*** Assumptions
+*** Sarcasam
+*** Subjective comments
+****_ totalUsers to countOfTotalUsers
+****_ This is wrong
+*** Negative tone 
+*** Process loop hole
+****_ Bias on superhero code
+****_ Bypass senior code
+****_ Bypass release day commits 
+****_ Skip copy pasted code
+****_ Skip library validation
+****_ Comments in mail instead of source control
+***_ Manual review of indentation, naming etc...
+
+left side
+** Bitter reality
+*** There is no perfect code
+****_ Look at your 1 year old code
+*** No silverbullet 
+****_ There is no always or never. All case by case.
+
+** What to do
+*** Setup team working agreement
+**** Conventions
+**** Process
+*****_ Time for code review fixes
+
+*** Automated tools
+**** Test coverage
+**** Indentation, linting
+**** Cyclomatic complexity
+**** Scan
+*****_ Security
+*****_ Third party libraries
+**** Min 2 mandatory review for PR
+**** No direct check-in to main branch
+*** Personal
+**** Appreciate the good
+**** Get opinions
+*****_ Ask how to improve
+*****_ Show how others did 
+*** Review
+**** Design
+*****_ Backward compatibility
+*****_ Single point of failures
+**** NFR
+*****_ Documentation updated?
+*****_ Does it break load balancing?
+*****_ Any change in networking?
+*****_ Rate limits
+*****_ Resource usage
+******_ Performance
+******_ Memory
+*** Objective comments
+**** Show samples
+***** Where it will fail
+******_ Down stream dependency
+******_ Running inside container
+***** When it will fail
+******_ Leap day
+******_ Accessed from eastern countries
+
+legend right
+Inspired by the Linked in course [[https://www.linkedin.com/learning/inclusive-tech-conducting-humane-code-reviews/code-reviews-heated-but-needed?u=89254810 Inclusive Tech: Conducting Humane Code Reviews]]. But has my my own points.
+Left Side - What to do
+Right Side - Others
+[[https://joymonscode.blogspot.com/2017/05/toolbox-for-open-source-developers.html Old plain list]]
+  
+endlegend
+caption Software development - Programming - Conducting humane code reviews - Mind Map - Updated on 2022-04-13
+center footer JoymonOnline
+
+@endmindmap
