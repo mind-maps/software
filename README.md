@@ -1,5 +1,5 @@
 # Software Mind maps
-Mind maps related to software engineering
+Mind maps related to software engineering. [Browse the diagrams](https://mind-maps.github.io/software/).
 
 # PlantUML format
 The diagrams are not prepared in image format such as svg, JPEG or as visio or any other tool's format. It uses text based coded diagramming format called PlantUML.
