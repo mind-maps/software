@@ -50,7 +50,7 @@ left side
 *** [[https://trello.com/ Trello]]
 ** System
 *** OS
-**** Windows 10
+**** Windows 11
 ***** [[https://github.com/joymon/win10-dev-box-setup Environment setup]]
 ****** Choco+PowerShell
 ***** [[https://www.av-test.org/en/antivirus/home-windows/ Antivirus]]
@@ -75,18 +75,25 @@ left side
 *** Presentation slides
 **** [[https://revealjs.com/ RevealJS]] + [[https://marketplace.visualstudio.com/items?itemName=evilz.vscode-reveal VSCode Ext]]
 *** [[https://www.onenote.com/ One Note]]
-*** Editing
-**** [[https://app.grammarly.com/ Grammarly]]
+*** Writing
+**** Tools
+*****_ [[https://app.grammarly.com/ Grammarly]]
+*****_ [[https://hemingwayapp.com/ Hemingway]]
+*****_ [[https://quillbot.com/ QuillBot]]
+*****_ [[https://www.gingersoftware.com/ GingerSoftware]]
 ** Publishing
-*** Video
-**** YouTube
-***** [[https://www.youtube.com/channel/UC78wYrq_keVaDV8STReHRxg Joymon v/s Code]]
-***** [[https://www.youtube.com/channel/UCzYqSifCwLYpmgRxvNo7BzA The J3D Family]]
-***** [[https://www.youtube.com/channel/UC1D3Fy0L0aoI0OfUEZnWy5A Johan & Jerin Playtime]]
-*** Blog
-**** Blogger
-***** [[https://joymonscode.blogspot.com/ Joymon v/s Code]]
-***** [[https://joy-mon.blogspot.com/ എന്‍റെ ബ്ലോഗാന്വേഷണ പരീക്ഷണങ്ങള്‍]] ([[https://en.wikipedia.org/wiki/Malayalam Malayalam language]])
+*** Tools
+****_ [[https://www.copyscape.com/ Copyscape]]
+*** Joymons 
+**** Video
+***** YouTube
+******_ [[https://www.youtube.com/channel/UC78wYrq_keVaDV8STReHRxg Joymon v/s Code]]
+******_ [[https://www.youtube.com/channel/UCzYqSifCwLYpmgRxvNo7BzA The J3D Family]]
+******_ [[https://www.youtube.com/channel/UC1D3Fy0L0aoI0OfUEZnWy5A Johan & Jerin Playtime]]
+**** Blog
+***** Blogger
+******_ [[https://joymonscode.blogspot.com/ Joymon v/s Code]]
+******_ [[https://joy-mon.blogspot.com/ എന്‍റെ ബ്ലോഗാന്വേഷണ പരീക്ഷണങ്ങള്‍]] ([[https://en.wikipedia.org/wiki/Malayalam Malayalam language]])
 
 legend right
 All the tools are free, mostly open source. Except Win 10
