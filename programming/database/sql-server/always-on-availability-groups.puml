@@ -10,34 +10,59 @@ center footer JoymonOnline
 * <&flag><b>SQL Always On Availability Groups</b>
 ** Restrictions
 ** Concepts
+*** Basics
+****_ [[https://docs.microsoft.com/en-us/sql/database-engine/availability-groups/windows/overview-of-always-on-availability-groups-sql-server?view=sql-server-2017 Overview]]
+****_ [[https://docs.microsoft.com/en-us/sql/database-engine/availability-groups/windows/prereqs-restrictions-recommendations-always-on-availability?view=sql-server-2017#PrerequisitesForAGs Restrictions]]
 *** AG mode
 **** [[https://docs.microsoft.com/en-us/sql/database-engine/availability-groups/windows/availability-modes-always-on-availability-groups?view=sql-server-2017#SyncCommitAvMode sync]]
 ***** [[https://www.brentozar.com/archive/2015/09/synchronous-alwayson-availability-groups-is-not-zero-data-loss/ Dataloss in sync]]
 ***** Performane hit [[https://blogs.msdn.microsoft.com/sambetts/2014/08/21/alwayson-asynchronous-vs-synchronous-commit-performance-for-sharepoint/ 1]]
 **** [[https://docs.microsoft.com/en-us/sql/database-engine/availability-groups/windows/availability-modes-always-on-availability-groups?view=sql-server-2017#AsyncCommitAvMode Async]]
 *** Failover mode
-**** Automatic
-**** Manual
+****_ [[https://docs.microsoft.com/en-us/sql/database-engine/availability-groups/windows/failover-and-failover-modes-always-on-availability-groups?view=sql-server-ver16 Automatic & Manual]]
 *** Prerequisites
 **** [[https://docs.microsoft.com/en-us/sql/database-engine/availability-groups/windows/failover-clustering-and-always-on-availability-groups-sql-server?view=sql-server-2017 WSFC]]
+****_ [[https://docs.microsoft.com/en-us/azure/azure-sql/virtual-machines/windows/availability-group-overview?view=azuresql-vm Considerations in Azure VM]]
+*** [[https://www.sqlshack.com/data-synchronization-in-sql-server-always-on-availability-groups/ Replication]]
+****_ [[https://severalnines.com/database-blog/when-and-how-to-use-asynchronous-commit-mode-ms-sql-server-always Async]]
+****_ [[https://severalnines.com/database-blog/exploring-synchronous-commit-mode-for-sql-server-always-on Sync]]
 *** Auto seeding
+****_ [[https://docs.microsoft.com/en-us/sql/database-engine/availability-groups/windows/automatically-initialize-always-on-availability-group?view=sql-server-2017#when-not-to-use-automatic-seeding Auto seeding]]
+****_ [[https://docs.microsoft.com/en-us/sql/database-engine/availability-groups/windows/automatic-seeding-secondary-replicas?view=sql-server-2017 Link2]]
 ** Use cases
-
+** Client connectivity
+***_ [[https://docs.microsoft.com/en-us/sql/database-engine/availability-groups/windows/about-client-connection-access-to-availability-replicas-sql-server?view=sql-server-2017 Connection to replicas]]
+***_ [[https://docs.microsoft.com/en-us/sql/database-engine/availability-groups/windows/always-on-client-connectivity-sql-server?view=sql-server-ver15 .Net ADO, OLEDB & ODBC]]
+** FAQ
+***_ [[https://sqlha.com/allans-alwayson-availability-groups-faq/ SQLHA]]
 left side
 
 ** Setup
-*** Azure VM
+*** Environment
+****_ [[https://blog.kloud.com.au/2016/08/11/setting-up-always-on-availability-groups-for-sql-server-in-azure/ Azure VM]]
+****_ [[https://ramprasadtech.com/ms-sql-alwayson-availability-groups-implementation-step-by-step-process/ On-Prem]]
+*** Database Management
+****_ [[https://docs.microsoft.com/en-us/sql/database-engine/availability-groups/windows/availability-group-add-a-database?view=sql-server-2017 Add DB]]
+****_ [[https://mlichtenberg.wordpress.com/2016/02/02/how-to-restore-a-database-in-a-sql-server-alwayson-availability-group/ Restore]]
+****_ [[https://docs.microsoft.com/en-us/sql/database-engine/availability-groups/windows/remove-a-primary-database-from-an-availability-group-sql-server?view=sql-server-2017 Remove DB via scripts]]
+****_ [[https://www.mssqltips.com/sqlservertip/4819/remove-database-from-sql-server-alwayson-availability-group-secondary-replica/ Remove DB via UI]]
 ** Capacity
-*** No of Databases in AG
-*** No of Replicas
-
+*** Max Databases
+****_ [[https://docs.microsoft.com/en-us/sql/database-engine/availability-groups/windows/prereqs-restrictions-recommendations-always-on-availability?redirectedfrom=MSDN&view=sql-server-ver16#RestrictionsAG 10AGs & 100 DBs tested by MSFT]]
+****_ [[https://www.red-gate.com/simple-talk/databases/sql-server/database-administration-sql-server/alwayson-availability-groups-what-not-to-do-when-adding-databases/ Calculations]]
+*** Max Replicas
+****_ [[https://docs.microsoft.com/en-us/sql/database-engine/availability-groups/windows/prereqs-restrictions-recommendations-always-on-availability?redirectedfrom=MSDN&view=sql-server-ver16#RestrictionsAG 1 Primary + 8 async secondary ]]
+***_ [[https://www.sqlshack.com/max-worker-threads-for-sql-server-always-on-availability-group-databases/ Max Worker Threads]]
 ** Troubleshooting
 *** Where to look
 **** Always on AG Dashboard
 **** DMVs
-**** SQL Error logs
+*****_ [[https://docs.microsoft.com/en-us/sql/relational-databases/system-catalog-views/sys-availability-replicas-transact-sql?view=sql-server-2017 sys.availability_replicas]]
+*****_ [[https://docs.microsoft.com/en-us/sql/relational-databases/system-dynamic-management-views/sys-dm-hadr-database-replica-states-transact-sql?view=sql-server-2017 sys.dm_hadr_database_replica_states]]
+****_ [[https://docs.microsoft.com/en-us/sql/database-engine/availability-groups/windows/sql-server-error-log-always-on-availability-groups?view=sql-server-ver16 SQL Error logs]]
+***_ [[https://docs.microsoft.com/en-us/sql/database-engine/availability-groups/windows/troubleshoot-always-on-availability-groups-configuration-sql-server?view=sql-server-2017 Configuration]]
 *** Network
-**** Ports
+****_ [[https://techcommunity.microsoft.com/t5/datacat/alwayson-availability-groups-listener-named-instances-port/ba-p/305210 Ports]]
 **** Bandwidth
 *** [[https://www.sqlshack.com/measuring-availability-group-synchronization-lag/ Measure sync lag]]
 
