@@ -16,7 +16,10 @@ title Mind map of useful nuget packages for console application development
 left side
 ** User Interface
 *** Tables
+*** Markdown
+****_ [[https://github.com/spectreconsole/spectre.console Spectre.Console]]
 *** Dialogs
+****_ [[https://github.com/migueldeicaza/gui.cs Gui.cs]]
 
 legend right
   Other lists
