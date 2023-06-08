@@ -1,0 +1,64 @@
+@startuml "Throttling"
+center header
+Microsoft 365 - Throttling in SharePoint
+endheader
+
+title SharePoint Online - Throttling 
+
+start
+if (User or App based auth) then (User)
+    :Its more of fair use policy than throttling.
+    Throttling numbers are not available;
+    if(ROPC flow from daemon\n User from client application?) then ([[https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-oauth-ropc ROPC]])
+        :Depends on replica's of daemon.
+        Lucky if it works. Better forget this way.;
+    else (User)
+        :Less chance of throttling;
+    endif
+else (App based)
+    if (Did app reach [[https://learn.microsoft.com/en-us/graph/throttling-limits#ms--in-this-article 2000 reqs/sec]] \n across all tenants) then (yes)
+        :Throttled;
+    else (no)
+        :Understand the black magic of \n[[https://learn.microsoft.com/en-us/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online#application-throttling requests to resource units]];
+        if(App reached per minute\nresource quota?) then (yes)
+            :Throttled;
+            note left: More licenses in tenant,\nmore quota.
+        else (no)
+            if(App reached daily\nresource quota?) then (yes)
+                :Throttled;
+                note right:Per minute quota \nnot for all minutes of day.
+            else (no)
+                if(Is it search query \nwith [[https://learn.microsoft.com/en-us/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online#when-using-app-only-authentication-with-sitesreadall-permission specific permissions]]\n and app making > 25 requests/sec?) then (yes)
+                    :Throttled;
+                else (no)
+                    if(Is it people search query, \nmore than 25 #requests/sec \nfrom [[https://learn.microsoft.com/en-us/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online#when-searching-for-people-search-results entire organization]]) then (yes)
+                        :Throttled;
+                    else (no)
+                        if(Other undocumented\nlimits hitting?) then (yes)
+                            :Throttled;
+                        else (no)
+                            :[[https://learn.microsoft.com/en-us/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online#how-to-decorate-your-http-traffic Decorate requests]] to get priority.\nThis doesn't mean will not throttled;
+                            stop
+                        endif
+                    endif
+                endif
+            endif
+        endif
+    endif
+endif
+partition Retry {
+    if(Ready to take adventure with\n[[https://learn.microsoft.com/en-us/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online#ratelimit-headers---preview preview/beta features]]) then (yes)
+        if(RateLimit-Reset header\npresent in response?) then (yes)
+            :wait for seconds(RateLimit-Reset);
+        else (no)
+            :wait for seconds(Retry-After);
+        endif
+    else (no)
+        :wait for seconds(Retry-After);
+    endif
+    :Retry in code [[https://learn.microsoft.com/en-us/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online#retry-after-header Retry-After]];
+}
+caption Microsoft 365 - Throttling flow - Updated on 2023-06-08
+end
+
+@enduml

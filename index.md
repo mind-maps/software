@@ -6,14 +6,18 @@
   - [Before debugging other's problem](https://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/debugging/before-debugging-others-problem.puml){:target="_blank"}
   - [Windows network Debugging tools and commands for developers](http://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/debugging/windows-network-debugging.puml){:target="_blank"}
  - Programming
-   - Web front end
-     - [Web front end](https://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/programming/web-front-end/tools-tech.puml){:target="_blank"}
    - DotNet
      - [DotNet Performance](https://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/programming/dot-net/dotnet-web-performance.puml){:target="_blank"}
    - Database
      - SQL Server
        - [SQL Server Performance](https://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/programming/database/sql-server/sql-server-performance.puml){:target="_blank"}
        - [SQL Server Always On Availability Group](https://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/programming/database/sql-server/always-on-availability-groups.puml){:target="_blank"}
+    - Microsoft 365
+      - SharePoint Online
+          - [Throttling](https://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/programming/microsoft-365/sharepoint/throttling-flow.puml){:target="_blank"}
+    - Web front end
+      - [Web front end](https://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/programming/web-front-end/tools-tech.puml){:target="_blank"}
+   
 - Cloud
   - Azure
     - Compute
