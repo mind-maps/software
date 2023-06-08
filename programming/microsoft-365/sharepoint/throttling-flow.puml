@@ -58,7 +58,12 @@ partition Retry {
     endif
     :Retry in code [[https://learn.microsoft.com/en-us/sharepoint/dev/general-development/how-to-avoid-getting-throttled-or-blocked-in-sharepoint-online#retry-after-header Retry-After]];
 }
+legend right
+    References
+    * [[https://learn.microsoft.com/en-us/graph/throttling Microsoft Graph Throttling]]
+    * Non MSFT blog telling [[https://www.spdoctor.com/articles/Microsoft_Graph_-_Don't_Get_Throttled!.html 10000 requests/ 10 minutes]]
+    
+endlegend
 caption Microsoft 365 - Throttling flow - Updated on 2023-06-08
 end
-
 @enduml
