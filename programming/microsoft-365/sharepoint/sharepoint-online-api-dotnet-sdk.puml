@@ -1,0 +1,43 @@
+@startmindmap
+center header
+SharePoint Online
+endheader
+title SharePoint Online API and SDK model
+
+* SharePoint Online
+ * Graph API\ngraph.microsoft.com
+  * v1.0
+   * [[https://www.nuget.org/packages/Microsoft.Graph/ Microsoft.Graph nuget]]
+    * [[https://devblogs.microsoft.com/microsoft365dev/microsoft-graph-net-sdk-v4-now-generally-available-with-streamlined-authentication-and-more/ v4]]
+    * [[https://devblogs.microsoft.com/microsoft365dev/microsoft-graph-net-sdk-v5-is-now-generally-available/ v5]] breaking changes from v4
+   * <back:orange>PnP.Core</back>
+    *_ When [[https://pnp.github.io/pnpcore/using-the-sdk/basics-apis.html#sharepoint-rest-versus-microsoft-graph context.GraphFirst=true]]
+  * beta
+   * [[https://www.nuget.org/packages/Microsoft.Graph.Beta Microsoft.Graph.Beta nuget]] 
+   * <back:orange>PnP.Core</back>
+    *_ Control via [[https://pnp.github.io/pnpcore/using-the-sdk/basics-apis.html#graph-v1-versus-graph-beta context.GraphCanUseBeta and GraphAlwaysUseBeta]]
+**: multiline
+node without \n;
+***_ this is multi-line\nwith linefeed
+
+left side
+** SharePoint API\nor\nCSOM API\n[[https://<tenant>.sharepoint.com/ https://<tenant>.sharepoint.com/]]
+*** [[ /_vti_bin/client.svc]]
+****[#Orange] [[https://github.com/pnp/pnpcore#what-underlying-apis-are-used PnP.Core]]
+****[#LightGreen] [[https://www.nuget.org/packages/PnP.Framework/ PnP.Framework nuget]]
+*** [[https://learn.microsoft.com/en-us/sharepoint/dev/sp-add-ins/get-to-know-the-sharepoint-rest-service?tabs=csom /_api]]
+****[#Orange] PnP.Core
+****[#LightGreen] [[https://www.nuget.org/packages/PnP.Framework/ PnP.Framework nuget]]
+*** [[https://learn.microsoft.com/en-us/sharepoint/dev/apis/sharepoint-rest-graph /_api/v2.0]]
+****[#Orange] PnP.Core
+*** [[https://powerusers.microsoft.com/t5/General-Power-Automate/Sharepoint-Site-Collection-Id-and-Site-Web-Id-Information-using/td-p/2038311 /_api/v2.1]] (Undocumented)
+****[#Orange] [[https://github.com/pnp/pnpcore/blob/26b5ee466115bca6b0922164c17cd509600d4c1b/docs/using-the-sdk/taxonomy-intro.md?plain=1#L52 PnP.Core\ncustom invoke]] 
+
+legend right
+legend right with bullets
+# Use the beta endpoints at your own risk
+endlegend
+
+caption SharePoint Online API and SDK - 2023-06-18
+
+@endmindmap

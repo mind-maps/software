@@ -1,0 +1,25 @@
+@startmindmap
+center header
+Header is thin and at top center
+endheader
+title Title is bold and center
+* <&flag> Center
+** right side node
+***_ this is line without rounded rectangle
+**: multiline
+node without \n;
+***_ this is multi-line\nwith linefeed
+left side
+** left side node
+
+**[#Orange] Orange
+
+legend right
+legend right with bullets
+# mm does not support notes
+
+endlegend
+
+caption this is caption at the bottom
+
+@endmindmap
