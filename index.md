@@ -14,7 +14,9 @@
        - [SQL Server Always On Availability Group](https://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/programming/database/sql-server/always-on-availability-groups.puml){:target="_blank"}
     - Microsoft 365
       - SharePoint Online
+          - [APIs and .Net SDK model](https://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/programming/microsoft-365/sharepoint/api-dotnet-sdk.puml.puml){:target="_blank"}
           - [Throttling](https://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/programming/microsoft-365/sharepoint/throttling-flow.puml){:target="_blank"}
+          
     - Web front end
       - [Web front end](https://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/programming/web-front-end/tools-tech.puml){:target="_blank"}
    

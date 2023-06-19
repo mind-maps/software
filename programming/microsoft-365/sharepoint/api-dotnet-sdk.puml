@@ -2,9 +2,9 @@
 center header
 SharePoint Online
 endheader
-title SharePoint Online API and SDK model
+title SharePoint Online - API and .Net SDK model
 
-* SharePoint Online
+* **SharePoint Online**
  * Graph API\ngraph.microsoft.com
   * v1.0
    * [[https://www.nuget.org/packages/Microsoft.Graph/ Microsoft.Graph nuget]]
@@ -16,9 +16,6 @@ title SharePoint Online API and SDK model
    * [[https://www.nuget.org/packages/Microsoft.Graph.Beta Microsoft.Graph.Beta nuget]] 
    * <back:orange>PnP.Core</back>
     *_ Control via [[https://pnp.github.io/pnpcore/using-the-sdk/basics-apis.html#graph-v1-versus-graph-beta context.GraphCanUseBeta and GraphAlwaysUseBeta]]
-**: multiline
-node without \n;
-***_ this is multi-line\nwith linefeed
 
 left side
 ** SharePoint API\nor\nCSOM API\n[[https://<tenant>.sharepoint.com/ https://<tenant>.sharepoint.com/]]
