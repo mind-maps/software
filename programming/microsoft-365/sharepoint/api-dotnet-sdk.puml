@@ -5,7 +5,7 @@ endheader
 title SharePoint Online - API and .Net SDK model
 
 * **SharePoint Online**
- * Graph API\ngraph.microsoft.com
+ * Graph API\n[[https://graph.microsoft.com/]]
   * v1.0
    * [[https://www.nuget.org/packages/Microsoft.Graph/ Microsoft.Graph nuget]]
     * [[https://devblogs.microsoft.com/microsoft365dev/microsoft-graph-net-sdk-v4-now-generally-available-with-streamlined-authentication-and-more/ v4]]
@@ -31,8 +31,8 @@ left side
 ****[#Orange] [[https://github.com/pnp/pnpcore/blob/26b5ee466115bca6b0922164c17cd509600d4c1b/docs/using-the-sdk/taxonomy-intro.md?plain=1#L52 PnP.Core\ncustom invoke]] 
 
 legend right
-legend right with bullets
 # Use the beta endpoints at your own risk
+# [[https://learn.microsoft.com/en-us/previous-versions/office/sharepoint-csom/jj193041(v=office.15) CSOM reference]]
 endlegend
 
 caption SharePoint Online API and SDK - 2023-06-18
