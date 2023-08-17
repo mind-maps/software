@@ -62,7 +62,7 @@ legend right
     References
     * [[https://learn.microsoft.com/en-us/graph/throttling Microsoft Graph Throttling]]
     * Non MSFT blog telling [[https://www.spdoctor.com/articles/Microsoft_Graph_-_Don't_Get_Throttled!.html 10000 requests/ 10 minutes]]
-    
+    * [[https://learn.microsoft.com/en-us/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits Other limits such as file size]]
 endlegend
 caption Microsoft 365 - Throttling flow - Updated on 2023-06-08
 end
