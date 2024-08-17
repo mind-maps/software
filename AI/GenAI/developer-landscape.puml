@@ -1,0 +1,72 @@
+@startmindmap
+center header
+Header is thin and at top center
+endheader
+title GenAI Landscape for developers
+* <&flag> GenAI Dev
+
+
+left side
+** Platform
+*** Onpremise
+****_ [[https://ollama.com/ Ollama]]
+*** Cloud
+****_ Azure OpenAI
+****_ AWS Bedrock
+****_ GCP Vertex AI
+
+**[#Orange] Apps
+*** Text
+****_ ChatGPT
+****_ Gemini
+****_ Claude
+*** Images
+****_ MidJourney
+****_ DALL-E
+*** Coding
+****_ GH CoPilot
+****_ AWS CodeWhisper
+*** Automation
+****_ AutoGPT
+****_ AutoChain
+****_ WorkGPT
+
+right side
+**: Infra
+hardware;
+***_ nVidea
+***_ CoreWeave
+*** Cloud IaaS
+** Models
+*** Hubs
+**** HuggingFace
+**** [[https://replicate.com/ Replicate]]
+*** Types
+**** 🗎Text
+*****_:GPT by OpenAI
+3.5 Turbo, 4 turbo, 4o, 4o mini;
+*****_: Claude
+ 3 Sonnet/Haiku/Opus,
+ 3.5 Sonnet;
+*****_: Llama by Meta
+3.1 405B, 70B,8B ;
+**** Images
+*****_ DALL-E by OpenAI
+**** 🔊Audio
+**** 📹Video
+**** Multimodal
+*****_: Gemini by Google
+1.0 Nano, Flash,1.5 Pro, 1.0 Ultra;
+** Patters
+*** RAG
+*** Fine-tuning
+legend right
+# Platform runs the Models.
+# Apps are listed for understanding, not all.
+# [[https://www.stork.ai/ Stork Tools list]]
+# [[https://platform.openai.com/docs/models/models-overview Full OpenAI Models]]
+endlegend
+
+caption this is caption at the bottom
+
+@endmindmap
