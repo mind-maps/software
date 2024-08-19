@@ -1,6 +1,6 @@
 @startmindmap
 center header
-Header is thin and at top center
+Mind map on Gen AI for developers 
 endheader
 title GenAI Landscape for developers
 * <&flag> GenAI Dev
@@ -39,17 +39,20 @@ hardware;
 *** Cloud IaaS
 ** Models
 *** Hubs
-**** HuggingFace
-**** [[https://replicate.com/ Replicate]]
+****_ HuggingFace
+****_ [[https://replicate.com/ Replicate]]
+****_ [[https://openwebui.com/ Ollama Hub]]
 *** Types
 **** 🗎Text
 *****_:GPT by OpenAI
 3.5 Turbo, 4 turbo, 4o, 4o mini;
-*****_: Claude
+*****_: Claude by Anthropic
  3 Sonnet/Haiku/Opus,
  3.5 Sonnet;
 *****_: Llama by Meta
-3.1 405B, 70B,8B ;
+3.1 405B, 70B, 8B ;
+*****_: PaLM2 by Google
+;
 **** Images
 *****_ DALL-E by OpenAI
 **** 🔊Audio
@@ -67,6 +70,6 @@ legend right
 # [[https://platform.openai.com/docs/models/models-overview Full OpenAI Models]]
 endlegend
 
-caption this is caption at the bottom
+caption GenAI - Developer mind map © Joy George Kunjikkuru
 
 @endmindmap
