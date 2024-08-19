@@ -32,8 +32,7 @@ left side
 ****_ WorkGPT
 
 right side
-**: Infra
-hardware;
+** Infra/hardware
 ***_ nVidea
 ***_ CoreWeave
 *** Cloud IaaS
@@ -49,7 +48,7 @@ hardware;
 *****_: Claude by Anthropic
  3 Sonnet/Haiku/Opus,
  3.5 Sonnet;
-*****_: Llama by Meta
+*****_: <:book:> Llama by Meta
 3.1 405B, 70B, 8B ;
 *****_: PaLM2 by Google
 ;
@@ -64,7 +63,9 @@ hardware;
 *** RAG
 *** Fine-tuning
 legend right
-# Platform runs the Models.
+# <:cloud:> - Cloud hosted
+# <:book:> - Opensource
+# Platform - runs the Models.
 # Apps are listed for understanding, not all.
 # [[https://www.stork.ai/ Stork Tools list]]
 # [[https://platform.openai.com/docs/models/models-overview Full OpenAI Models]]
