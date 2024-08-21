@@ -1,0 +1,27 @@
+@startmindmap
+center header
+Header is thin and at top center
+endheader
+title LangChain mind map
+* <&flag> LangChain
+left side
+** Prompts
+**[#Orange] Chains
+right side
+** Indexes
+***_ DocumentLoader
+***_ VectorDB
+***_ TextSplitting
+**: LLMs 
+;
+** Memory
+** Agents
+
+legend right
+# mm does not support notes
+
+endlegend
+
+caption this is caption at the bottom
+
+@endmindmap

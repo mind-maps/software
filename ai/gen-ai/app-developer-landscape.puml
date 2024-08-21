@@ -2,10 +2,9 @@
 center header
 Mind map on Gen AI for developers 
 endheader
-title GenAI Landscape for developers
-* <&flag> GenAI Dev
-
-
+title GenAI Landscape for app developers
+*: <&flag> GenAI 
+App Dev;
 left side
 ** Platform
 *** Onpremise
@@ -14,8 +13,12 @@ left side
 ****_ Azure OpenAI
 ****_ AWS Bedrock
 ****_ GCP Vertex AI
-
-**[#Orange] Apps
+** Orchestration
+***_ LangChain
+***_ Haystack
+***_ Auto-GPT
+***_ LlamaIndex
+** Apps
 *** Text
 ****_ ChatGPT
 ****_ Gemini
@@ -60,8 +63,11 @@ right side
 *****_: Gemini by Google
 1.0 Nano, Flash,1.5 Pro, 1.0 Ultra;
 ** Patters
-*** RAG
 *** Fine-tuning
+*** RAG
+**** External data sources
+*****_ Vector indexes
+
 legend right
 # <:cloud:> - Cloud hosted
 # <:book:> - Opensource
