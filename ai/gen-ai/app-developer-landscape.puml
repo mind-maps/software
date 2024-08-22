@@ -16,7 +16,6 @@ left side
 ** Orchestration
 ***_ LangChain
 ***_ Haystack
-***_ Auto-GPT
 ***_ LlamaIndex
 ** Apps
 *** Text
@@ -26,6 +25,8 @@ left side
 *** Images
 ****_ MidJourney
 ****_ DALL-E
+*** Audio
+****_ Suno AI
 *** Coding
 ****_ GH CoPilot
 ****_ AWS CodeWhisper
@@ -44,7 +45,7 @@ right side
 ****_ HuggingFace
 ****_ [[https://replicate.com/ Replicate]]
 ****_ [[https://openwebui.com/ Ollama Hub]]
-*** Types
+*** Foundational Model Types
 **** 🗎Text
 *****_:GPT by OpenAI
 3.5 Turbo, 4 turbo, 4o, 4o mini;
@@ -58,7 +59,11 @@ right side
 **** Images
 *****_ DALL-E by OpenAI
 **** 🔊Audio
+*****_ MusicLM by Google
+*****_ MusicGen by Meta
 **** 📹Video
+*****_ Veo by Google
+*****_ Sora by OpenAI
 **** Multimodal
 *****_: Gemini by Google
 1.0 Nano, Flash,1.5 Pro, 1.0 Ultra;
