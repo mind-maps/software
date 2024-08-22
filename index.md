@@ -7,7 +7,7 @@
   - [Windows network Debugging tools and commands for developers](http://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/debugging/windows-network-debugging.puml){:target="_blank"}
  - AI
    - Gen AI
-     - [Gen AI Landscape for App Developers](https://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/AI/GenAI/app-developer-landscape.puml){:target="_blank"}
+     - [Gen AI Landscape for App Developers](https://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/ai/gen-ai/app-developer-landscape.puml){:target="_blank"}
  - Programming
    - DotNet
      - [DotNet Performance](https://www.plantuml.com/plantuml/proxy?fmt=svg&cache=no&src=https://raw.githubusercontent.com/mind-maps/software/master/programming/dot-net/dotnet-web-performance.puml){:target="_blank"}
