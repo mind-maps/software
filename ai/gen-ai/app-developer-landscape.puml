@@ -46,7 +46,7 @@ right side
 ****_ [[https://replicate.com/ Replicate]]
 ****_ [[https://openwebui.com/ Ollama Hub]]
 *** Foundational Model Types
-**** 🗎Text
+**** <:pen:>Text
 *****_:GPT by OpenAI
 3.5 Turbo, 4 turbo, 4o, 4o mini;
 *****_: Claude by Anthropic
@@ -56,12 +56,12 @@ right side
 3.1 405B, 70B, 8B ;
 *****_: PaLM2 by Google
 ;
-**** Images
+**** <:camera:>Images
 *****_ DALL-E by OpenAI
-**** 🔊Audio
+**** <:musical_note:>Audio
 *****_ MusicLM by Google
 *****_ MusicGen by Meta
-**** 📹Video
+**** <:movie_camera:>Video
 *****_ Veo by Google
 *****_ Sora by OpenAI
 **** Multimodal
