@@ -15,8 +15,10 @@ left side
 ****_ GCP Vertex AI
 ** Orchestration
 ***_ LangChain
+***_ [[https://learn.microsoft.com/en-us/semantic-kernel/overview/ SemanticKernel]]
 ***_ Haystack
 ***_ LlamaIndex
+***_ PromptFlow
 ** Apps
 *** Text
 ****_ ChatGPT
