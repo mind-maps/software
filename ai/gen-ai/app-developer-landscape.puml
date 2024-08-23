@@ -2,7 +2,7 @@
 center header
 Mind map on Gen AI for developers 
 endheader
-title GenAI Landscape for app developers
+title GenAI Landscape for AI app developers
 *: <&flag> GenAI 
 App Dev;
 left side
@@ -56,6 +56,9 @@ right side
  3.5 Sonnet;
 *****_: <:book:> Llama by Meta
 3.1 405B, 70B, 8B ;
+*****_: Phi by Microsoft
+3-mini,3-vision 3.5-mini, 3.5-vision
+;
 *****_: PaLM2 by Google
 ;
 **** <:camera:>Images
@@ -69,6 +72,10 @@ right side
 **** Multimodal
 *****_: Gemini by Google
 1.0 Nano, Flash,1.5 Pro, 1.0 Ultra;
+*****_ LLaVa
+*****_:Phi by Microsoft
+3.5-MoE
+;
 ** Patterns
 *** Fine-tuning
 *** RAG
@@ -84,6 +91,6 @@ legend right
 # [[https://platform.openai.com/docs/models/models-overview Full OpenAI Models]]
 endlegend
 
-caption GenAI - Developer mind map © Joy George Kunjikkuru
+caption GenAI - AI App Developer mind map © Joy George Kunjikkuru
 
 @endmindmap
