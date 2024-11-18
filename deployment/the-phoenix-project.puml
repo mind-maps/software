@@ -6,6 +6,46 @@ The Phoenix Project
 endheader
 
 * <&flag><b>The Phoenix Project</b>
+left side
+** Authors
+***_ Gene Kim
+***_ Kevin Behr
+***_ George Spafford
+** Characters
+*** Bob Strauss Chairman
+****_ Erik Reid Board Member
+**** Steve Masters\n(CEO Ex Army)
+*****_ Stacy (Secretary)
+*****_ Nancy (Chief Auditor)
+*****_ Sarah Moulton (SVP Retail Ops)
+*****_ Dick Landry (CFO)
+*****_ John Pesche (CISO)
+*****_ Luke & Daimon (CIO Fired)
+*****_ Chris Allers (VP App Dev)
+******_ Max (Payroll time change dev)
+***** Bill Palmer & Page\n(new VP IT Ops\nEx Army)
+****** Ellen\nSecretary
+****** Wes Davis\n(Dir Distributed Tech Ops)
+*******_ Brent
+******_ Paddy McKee(Dir IT Support)
+*****_ Laura (HR) 
+*** Chapters
+**** 1. New VP\nHourly workers payroll outage
+**** 2. Meeting team for outage
+#### 3. Root cause PII(SSN). Not tested, ended up news
+#### 4. Sarah Escalation, machine crash, broken change management
+#### 5. IT Audit Issues
+#### 6. First change mgmt with cards and need 6 resources
+#### 7. Encounter with Reid
+#### 8 
+#### 9 People started following cards, sequenced work 
+#### 10 Seeing & streamlining Brent
+#### 11 Issue after Brent restricted
+#### 12 1st dep of Phoenix, adhoc changes, no QA.
+#### 13 Failed Dep
+right side
+** Process
+*** ITL
 ** Types of work
 *** BUSINESS
 *** Internal
@@ -18,8 +58,6 @@ endheader
 *** Measure
 ** [[https://en.wikipedia.org/wiki/Theory_of_constraints Theory of constraints]]
 *** Fix the bottle neck
-left side
-** Nothing to put 
 center footer JoymonOnline
 
 legend right
