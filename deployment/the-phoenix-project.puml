@@ -5,7 +5,7 @@ center header
 The Phoenix Project
 endheader
 
-* <&flag><b>The Phoenix Project</b>
+* <&book><b>The Phoenix Project</b>
 left side
 ** Authors
 ***_ Gene Kim
@@ -13,8 +13,12 @@ left side
 ***_ George Spafford
 ** Characters
 *** Bob Strauss Chairman
-****_ Erik Reid Board Member
 **** Steve Masters\n(CEO Ex Army)
+***** Bill Palmer & Page\n(new VP IT Ops\nEx Army)
+****** Ellen\nSecretary
+****** Wes Davis\n(Dir Distributed Tech Ops)
+*******_ Brent
+******_ Paddy McKee(Dir IT Support)
 *****_ Stacy (Secretary)
 *****_ Nancy (Chief Auditor)
 *****_ Sarah Moulton (SVP Retail Ops)
@@ -23,31 +27,50 @@ left side
 *****_ Luke & Daimon (CIO Fired)
 *****_ Chris Allers (VP App Dev)
 ******_ Max (Payroll time change dev)
-***** Bill Palmer & Page\n(new VP IT Ops\nEx Army)
-****** Ellen\nSecretary
-****** Wes Davis\n(Dir Distributed Tech Ops)
-*******_ Brent
-******_ Paddy McKee(Dir IT Support)
 *****_ Laura (HR) 
+****_ Erik Reid\n(Board Member)
+
 *** Chapters
-**** 1. New VP\nHourly workers payroll outage
-**** 2. Meeting team for outage
-#### 3. Root cause PII(SSN). Not tested, ended up news
-#### 4. Sarah Escalation, machine crash, broken change management
-#### 5. IT Audit Issues
-#### 6. First change mgmt with cards and need 6 resources
-#### 7. Encounter with Reid
-#### 8 
-#### 9 People started following cards, sequenced work 
-#### 10 Seeing & streamlining Brent
-#### 11 Issue after Brent restricted
-#### 12 1st dep of Phoenix, adhoc changes, no QA.
-#### 13 Failed Dep
+****_ 1. New VP\nHourly workers payroll outage
+****_ 2. Meeting team for outage
+####_ 3. Root cause PII(SSN). Not tested, ended up news
+####_ 4. Sarah Escalation, machine crash, broken change management
+####_ 5. IT Audit Issues
+####_ 6. First change mgmt with cards and need 6 resources
+####_ 7. Encounter with Reid
+####_ 8 
+####_ 9 People started following cards, sequenced work 
+####_ 10 Seeing & streamlining Brent
+####_ 11 Issue after Brent restricted
+####_ 12 1st dep of Phoenix, adhoc changes, no QA.
+####_ 13 Failed Dep, CCV data, bad perf & user experience
+####_ 14 Plan of outsource, dev concerns and tie up. Dev Party
+####_ 15 Day with Page, 
+####_ 16 Figured type of work, new issue from payments, resign
+####_ 17 Resigned and company join back
+####_ 18 Bill joined back & Steve Apology
+####_ 19 Team building by personal stories, project freeze
+####_ 20 Better, what after freeze
+####_ 21 Audit meeting, John advised not to slow down
+####_ 22 John missing, Standardizing like production, Kanban.\nEffect appered when laptop came 2 days early
+####_ 23 
+####_ 24 John is back and trying to understand better
+####_ 25
+####_ 26 time to market. Should assign dedicated IT persons?
+####_ 27 No clarity of Requirement/business process. Sec gettign easy with John
+####_ 28 
+####_ 29 Separate SWAT team came in
+####_ 30 10 Deploys a day?
+####_ 31 Unicorn project started
+####_ 32 Unicorn thriving
+####_ 33 Cloud 4 burst load, targetted promotion, Maggie volunteer
+####_ 34 Holiday shopping, more ask from marketting
+####_ 35 Bill get recognition from leadership
 right side
 ** Process
-*** ITL
+*** ITIL
 ** Types of work
-*** BUSINESS
+*** Business
 *** Internal
 *** Changes
 *** Unplanned
