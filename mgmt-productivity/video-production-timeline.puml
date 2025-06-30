@@ -1,0 +1,51 @@
+@startmindmap
+<style>
+rootNode {
+    HorizontalAlignment center
+}
+node {
+    HorizontalAlignment center
+}
+</style>
+center header
+Video production timeline for 8 min video 
+endheader
+title Timeline for production of 8 min video
+* 2:35:00⏰\n 8 Mins video
+**[#LightGoldenRodYellow] 1:00:00⏰ \nPost-production
+***_ 00:05⏰ Copy to computer and tagging
+***_ 00:15⏰ Rough cut & story setup
+***_ 00:10⏰ Fine cut
+***_ 00:05⏰ Screen shots, Text insertion
+***_ 00:10⏰ Review & trim
+***_ 00:05⏰ Rendering
+***_ 00:10⏰ Final review
+**[#LightBlue]: 00:50⏰
+Publishing & Marketing;
+***_ 00:15⏰ thumbnail
+***_ 00:25⏰ Youtube 
+****_ 00:02⏰ Title, Tags, etc...
+****_ 00:08⏰ Chapters
+****_ 00:15⏰ Captions
+***_ 00:05⏰ Facebook page & Instagram upload 
+***_ 00:05⏰ Marketting & comment reply 
+left side
+**[#LightSkyBlue] 15:00 ⏰ \n PreProduction
+***_ 05:00⏰  Idea and main points
+***_ 05:00⏰ Script writing
+***_ 05:00⏰ Screenshots
+
+**[#LightSalmon] 00:30 ⏰ Production
+***_ 00:00 ⏰ Studio setup
+***_ 30:00 ⏰ On-camera recording
+
+legend right
+legend right with bullets
+# mm does not support notes
+
+endlegend
+
+caption joymononline - Updated on 2025-06-29
+center footer JoymonOnline.in
+
+@endmindmap
