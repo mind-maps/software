@@ -1,0 +1,138 @@
+@startmindmap
+center header
+Software Architecture Patterns
+endheader
+title Architecture Patterns
+*[#Orange]: <&flag> Architecture 
+Patterns;
+left side
+**[#LightBlue] System
+*** Monolith
+****_ 👍Single deployable unit
+****_ 👎🏽Tight coupling
+****_ 👎🏽Difficult to scale
+****_ 👎🏽Complex codebase
+*** N-tier
+****_ Independent development
+****_ Scalability
+*** Service-Oriented Architecture (SOA)
+****_ Multiple services
+****_ Business Activity
+****_ Service composability
+****_ Standardized communication
+****_ Enterprise service Bus
+****_ Central governance
+*** Microservices
+****_ 👍Independent deployable services
+****_ Business capability
+****_ 👍Separate teams build & run
+****_ 👍Decentralized data management
+****_ 👍Continuous delivery with test automation
+****_ 👍Scalability
+****_ 👍Resilience
+****_ 👍Technology diversity
+****_ 👎🏽Require skilled teams
+****_ 👎🏽Operational complexity
+****_ 👎🏽Data consistency challenges
+****_ 👎🏽Organizational alignment
+****_ 👎🏽 Unclear boundaries
+*** Serverless
+**** Function as a Service (FaaS)
+*****_ 👍No server management
+*****_ 👍Automatic hyper scaling
+*****_ 👍Pay-per-use
+*****_ 👎🏽Cold starts
+*****_ 👎🏽Limited execution duration
+*****_ 👎🏽Vendor lock-in
+*****_ 👎🏽Learning curve
+**** Backend as a Service (BaaS)
+*****_ 👍Backend configuration & Focus on frontend
+*****_ 👍Scalability
+*****_ 👎🏽Limited customization
+*****_ 👎🏽Vendor lock-in
+*****_ 👎🏽Data security concerns
+*** Distributed Systems 
+****_ 👍Scalability
+****_ Transactional integrity
+*** Peer to Peer
+****_ No central server except for initial connection
+****_ 👍Scalability
+****_ Resource sharing
+****_ Resilience
+****_ Dynamic discovery
+****_ No constant connection
+****_ 👎🏽Security concerns
+****_ 👎🏽Data consistency challenges
+
+right side
+**[#LightBlue] Application
+*** Layerd
+****_ 👍Separation of concerns
+****_ Low learning curve
+****_ 👎🏽High coupling
+*** Onion
+****_ 👍Maintainability
+****_ 👍Testability
+*** Hexagonal
+*** Modular monolith
+****_ Single process but Independent modules
+****_ 👍Loose coupling
+****_ 👍Better agility
+****_ 👍Easy to run locally
+****_ 👍Simpler deployment
+****_ 👎🏽Potential for tight coupling
+****_ 👎🏽No technology diversity
+****_ 👎🏽Scalability limitations
+*** Microkernel
+****_ 👍Extensibility
+****_ 👍Flexibility
+****_ 👍Separate teams develop extensions
+****_ 👎🏽Complex plugin management
+*** CQRS
+****_ 👍Separation of read & write
+****_ 👍Optimized performance
+****_ 👍Scalability
+****_ 👎🏽Data duplication & synchronization
+****_ 👎🏽Increased complexity
+****_ 👎🏽Learning curve
+*** Event Sourcing
+****_ 👍Audit trail
+****_ 👍Business language
+****_ 👍Event replay
+****_ 👎🏽Complexity with replay existing systems
+****_ 👎🏽Storage requirements
+****_ 👎🏽Event versioning
+****_ 👎🏽Learning curve
+****_ 👎🏽Time to create current object
+**[#LightBlue] UI
+*** Forms & Controls
+****_ 👍Simplicity
+****_ 👍Familiarity
+****_ Quick to PoC
+****_ 👎🏽Complex over time
+****_ 👎🏽Difficult to test
+*** MVC
+****_ 👍Separation of concerns
+****_ 👍Parallel development
+****_ 👍Testability
+****_ 👎🏽Bloated controllers
+*** MVP
+****_ 👍Separation of concerns
+****_ 👍Testability
+****_ 👎🏽Bloated presenters
+*** MVVM
+****_ 👍Data binding
+****_ 👍Separation of concerns
+****_ 👍Testability
+****_ 👎🏽Learning curve
+****_ 👎🏽Overhead for simple UIs
+****_ 👎🏽Debugging databinding challenges
+legend right
+# 👍 Pros 
+# 👎🏽 Cons 
+
+endlegend
+
+caption Mindmap of Software Architecture Patterns  
+
+@endmindmap
