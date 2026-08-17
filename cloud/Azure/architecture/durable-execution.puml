@@ -1,0 +1,43 @@
+@startmindmap
+center header
+ Architecture Patterns
+endheader
+title Durable Execution
+*[#Orange]: <&flag> Durable Tasks 
+left side
+** Concepts
+*** Characteristics
+****_ 👍State management
+****_ 👍Reliable execution
+****_ 👍Scalability
+****_ Idempotent activities
+*** Flow
+****_ Sequential
+****_ Fan in fan out
+****_ User interaction
+*** Components
+****_ Orchestrator
+****_ Activity
+****_ Client
+right side
+** SDKs
+*** Restate.dev
+*** Temporal.io
+*** [[https://learn.microsoft.com/en-us/azure/durable-task/sdks/durable-task-overview?tabs=csharp Durable Task Framework]]
+**** Languages
+*****_ .Net
+*****_ Java
+*****_ Python
+*****_ JavaScript/TS
+**** Hosting
+*****_ Azure Functions
+*****_ AKS
+legend right
+# 👍 Pros 
+# 👎🏽 Cons 
+
+endlegend
+
+caption Mindmap of Software Architecture Patterns  
+
+@endmindmap
